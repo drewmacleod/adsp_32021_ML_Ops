@@ -1,0 +1,19 @@
+{"time":"2025-07-16T17:19:54.634815-05:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T17:19:54.78008-05:00","level":"INFO","msg":"stream: created new stream","id":"odfarmcl"}
+{"time":"2025-07-16T17:19:54.780139-05:00","level":"INFO","msg":"stream: started","id":"odfarmcl"}
+{"time":"2025-07-16T17:19:54.780142-05:00","level":"INFO","msg":"handler: started","stream_id":"odfarmcl"}
+{"time":"2025-07-16T17:19:54.780146-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"odfarmcl"}
+{"time":"2025-07-16T17:19:54.780177-05:00","level":"INFO","msg":"sender: started","stream_id":"odfarmcl"}
+{"time":"2025-07-16T18:07:18.309461-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.155:56093->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-16T19:02:28.974911-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.155:62335->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-16T19:47:31.599694-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.155:50499->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-16T20:01:30.79703-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/drewmacl-uchicago/GitHub-Homework_Homework%202_Homework_Homework%202/odfarmcl/file_stream\": read tcp 192.168.1.155:57672->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-16T21:04:39.407248-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.155:55415->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-16T21:34:51.650543-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/drewmacl-uchicago/GitHub-Homework_Homework%202_Homework_Homework%202/odfarmcl/file_stream\": read tcp 192.168.1.155:51011->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-16T21:54:20.192059-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T21:54:20.296439-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-16T21:54:20.311364-05:00","level":"INFO","msg":"stream: closing","id":"odfarmcl"}
+{"time":"2025-07-16T21:54:20.311549-05:00","level":"INFO","msg":"sender: closed","stream_id":"odfarmcl"}
+{"time":"2025-07-16T21:54:20.311838-05:00","level":"INFO","msg":"handler: closed","stream_id":"odfarmcl"}
+{"time":"2025-07-16T21:54:20.311866-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"odfarmcl"}
+{"time":"2025-07-16T21:54:20.311949-05:00","level":"INFO","msg":"stream: closed","id":"odfarmcl"}

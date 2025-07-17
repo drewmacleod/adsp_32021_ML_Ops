@@ -1,0 +1,35 @@
+{
+  "os":  "macOS-13.5.2-arm64-arm-64bit",
+  "python":  "CPython 3.10.18",
+  "startedAt":  "2025-07-17T22:04:59.805293Z",
+  "program":  "debug_notebook",
+  "git":  {
+    "remote":  "https://github.com/drewmacleod/adsp_32021_ML_Ops.git",
+    "commit":  "d4aebb3ec6cea9e4f1e00877ed7e981331c7e554"
+  },
+  "email":  "drewmacl@uchicago.edu",
+  "root":  "/Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2",
+  "host":  "Drews-Air.attlocal.net",
+  "executable":  "/opt/anaconda3/envs/tf-privacy/bin/python3.10",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "225979486208"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  16,
+    "swapTotalBytes":  "16106127360",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "dze2nu5e0cv1x5fdj3eb538btfa61066"
+}

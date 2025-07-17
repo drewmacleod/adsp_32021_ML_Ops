@@ -1,0 +1,53 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            3zcgkisj90yca8m99bm363d8fslp43gw:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 7
+                    memoryGb: 16
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "16106127360"
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "232076464128"
+                email: drewmacl@uchicago.edu
+                executable: /opt/anaconda3/envs/tf-privacy/bin/python3.10
+                git:
+                    commit: d4aebb3ec6cea9e4f1e00877ed7e981331c7e554
+                    remote: https://github.com/drewmacleod/adsp_32021_ML_Ops.git
+                host: Drews-Air.attlocal.net
+                memory:
+                    total: "17179869184"
+                os: macOS-13.5.2-arm64-arm-64bit
+                program: Homework/Homework 2/HW2_Feature_Store_and_Pipeline.ipynb
+                python: CPython 3.10.18
+                root: /Users/drewmacl/Documents/U Chicago/Summer 2025/Machine Learning Operations/GitHub/Homework/Homework 2
+                startedAt: "2025-07-16T22:09:11.382784Z"
+                writerId: 3zcgkisj90yca8m99bm363d8fslp43gw
+        m: []
+        python_version: 3.10.18
+        t:
+            "3":
+                - 2
+                - 16
+            "4": 3.10.18
+            "5": 0.21.0
+            "8":
+                - 1
+            "12": 0.21.0
+            "13": darwin-arm64
+architecture:
+    value: CNN
+dataset:
+    value: CIFAR-100
+epochs:
+    value: 10
+learning_rate:
+    value: 0.02

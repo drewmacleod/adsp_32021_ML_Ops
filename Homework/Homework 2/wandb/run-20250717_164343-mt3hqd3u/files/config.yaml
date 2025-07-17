@@ -1,0 +1,71 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            1qokaj6itniur7qdv8pbru2nk6niyhkn:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 7
+                    memoryGb: 16
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "16106127360"
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "225898352640"
+                email: drewmacl@uchicago.edu
+                executable: /opt/anaconda3/envs/tf-privacy/bin/python3.10
+                git:
+                    commit: d4aebb3ec6cea9e4f1e00877ed7e981331c7e554
+                    remote: https://github.com/drewmacleod/adsp_32021_ML_Ops.git
+                host: Drews-Air.attlocal.net
+                memory:
+                    total: "17179869184"
+                os: macOS-13.5.2-arm64-arm-64bit
+                program: debug_notebook
+                python: CPython 3.10.18
+                root: /Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2
+                startedAt: "2025-07-17T21:43:43.951527Z"
+                writerId: 1qokaj6itniur7qdv8pbru2nk6niyhkn
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 5
+                - 7
+                - 11
+                - 49
+                - 53
+                - 54
+            "2":
+                - 5
+                - 7
+                - 11
+                - 49
+                - 53
+                - 54
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.18
+            "5": 0.21.0
+            "6": 4.53.2
+            "8":
+                - 1
+            "12": 0.21.0
+            "13": darwin-arm64
+depth:
+    value: 4
+features_version:
+    value: v2
+iterations:
+    value: 300
+learning_rate:
+    value: 0.05
+verbose:
+    value: 0

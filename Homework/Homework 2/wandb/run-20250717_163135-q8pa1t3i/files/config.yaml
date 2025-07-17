@@ -1,0 +1,28 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            nvsw14xrybn8okmzdzp76o7ve71ss3k2:
+                codePath: Homework/Homework 2/wandb_run_test.py
+                codePathLocal: wandb_run_test.py
+                email: drewmacl@uchicago.edu
+                executable: /opt/anaconda3/envs/tf-privacy/bin/python
+                git:
+                    commit: d4aebb3ec6cea9e4f1e00877ed7e981331c7e554
+                    remote: https://github.com/drewmacleod/adsp_32021_ML_Ops.git
+                host: Drews-Air.attlocal.net
+                os: macOS-13.5.2-arm64-arm-64bit
+                program: /Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2/wandb_run_test.py
+                python: CPython 3.10.18
+                root: /Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2
+                startedAt: "2025-07-17T21:31:35.181946Z"
+                writerId: nvsw14xrybn8okmzdzp76o7ve71ss3k2
+        m: []
+        python_version: 3.10.18
+        t:
+            "3":
+                - 2
+            "4": 3.10.18
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": darwin-arm64

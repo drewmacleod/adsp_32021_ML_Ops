@@ -1,0 +1,20 @@
+MSE: 18.2366
+R²:  0.9998
+MAE: 2.4676
+MSE: 18.2366
+MAE: 2.4676
+R²:  0.9998
+MSE: 18.2366
+MAE: 2.4676
+R²:  0.9998
+   driver_id           event_timestamp  conv_rate  acc_rate  avg_daily_trips
+0       1001 2021-04-12 10:59:42+00:00   0.223251  0.029132              352
+1       1002 2021-04-12 08:12:10+00:00   0.679636  0.754859               62
+2       1003 2021-04-12 16:40:26+00:00   0.830558  0.544667              592
+3       1004 2021-04-12 15:01:12+00:00   0.811330  0.777639              216
+/var/folders/vh/kffjld0n5xd456w6x2183pmr0000gn/T/ipykernel_43735/963272614.py:9: DeprecationWarning: Entity value_type will be mandatory in the next release. Please specify a value_type for entity 'athlete_id'.
+  athlete = Entity(
+/var/folders/vh/kffjld0n5xd456w6x2183pmr0000gn/T/ipykernel_43735/1371878209.py:9: DeprecationWarning: Entity value_type will be mandatory in the next release. Please specify a value_type for entity 'athlete_id'.
+  athlete = Entity(
+/var/folders/vh/kffjld0n5xd456w6x2183pmr0000gn/T/ipykernel_43735/1371878209.py:9: DeprecationWarning: Entity value_type will be mandatory in the next release. Please specify a value_type for entity 'athlete_id'.
+  athlete = Entity(

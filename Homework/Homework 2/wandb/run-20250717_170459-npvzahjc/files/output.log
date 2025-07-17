@@ -1,0 +1,33 @@
+[codecarbon WARNING @ 17:05:00] Multiple instances of codecarbon are allowed to run at the same time.
+[codecarbon WARNING @ 17:05:00] Error while trying to count physical CPUs: [Errno 2] No such file or directory: 'lscpu'. Defaulting to 1.
+[codecarbon INFO @ 17:05:00] [setup] RAM Tracking...
+[codecarbon INFO @ 17:05:00] [setup] CPU Tracking...
+[codecarbon WARNING @ 17:05:00] No CPU tracking mode found. Falling back on estimation based on TDP for CPU.
+ Mac OS and ARM processor detected: Please enable PowerMetrics sudo to measure CPU
+
+[codecarbon INFO @ 17:05:00] CPU Model on constant consumption mode: Apple M1
+[codecarbon WARNING @ 17:05:00] No CPU tracking mode found. Falling back on CPU constant mode.
+[codecarbon INFO @ 17:05:00] [setup] GPU Tracking...
+[codecarbon INFO @ 17:05:00] No GPU found.
+[codecarbon INFO @ 17:05:00] The below tracking methods have been set up:
+                RAM Tracking Method: RAM power estimation model
+                CPU Tracking Method: global constant
+                GPU Tracking Method: Unspecified
+
+[codecarbon INFO @ 17:05:00] >>> Tracker's metadata:
+[codecarbon INFO @ 17:05:00]   Platform system: macOS-13.5.2-arm64-arm-64bit
+[codecarbon INFO @ 17:05:00]   Python version: 3.10.18
+[codecarbon INFO @ 17:05:00]   CodeCarbon version: 3.0.4
+[codecarbon INFO @ 17:05:00]   Available RAM : 16.000 GB
+[codecarbon INFO @ 17:05:00]   CPU count: 8 thread(s) in 1 physical CPU(s)
+[codecarbon INFO @ 17:05:00]   CPU model: Apple M1
+[codecarbon INFO @ 17:05:00]   GPU count: None
+[codecarbon INFO @ 17:05:00]   GPU model: None
+[codecarbon INFO @ 17:05:01] Emissions data (if any) will be saved to file /Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2/emissions.csv
+MSE: 35.6330
+MAE: 4.5134
+R²:  0.9995
+[codecarbon INFO @ 17:05:03] Energy consumed for RAM : 0.000001 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 17:05:03] Delta energy consumed for CPU with constant : 0.000002 kWh, power : 5.0 W
+[codecarbon INFO @ 17:05:03] Energy consumed for All CPU : 0.000002 kWh
+[codecarbon INFO @ 17:05:03] 0.000003 kWh of electricity used since the beginning.

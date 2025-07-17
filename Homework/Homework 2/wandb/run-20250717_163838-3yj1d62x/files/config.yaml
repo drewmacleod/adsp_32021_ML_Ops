@@ -1,0 +1,44 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            n33hnbjoudmtz1gvalzy7dr5ssz1v99x:
+                email: drewmacl@uchicago.edu
+                executable: /opt/anaconda3/envs/tf-privacy/bin/python3.10
+                git:
+                    commit: d4aebb3ec6cea9e4f1e00877ed7e981331c7e554
+                    remote: https://github.com/drewmacleod/adsp_32021_ML_Ops.git
+                host: Drews-Air.attlocal.net
+                os: macOS-13.5.2-arm64-arm-64bit
+                program: debug_notebook
+                python: CPython 3.10.18
+                root: /Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2
+                startedAt: "2025-07-17T21:38:38.641701Z"
+                writerId: n33hnbjoudmtz1gvalzy7dr5ssz1v99x
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 5
+                - 7
+                - 11
+                - 49
+                - 53
+                - 54
+            "2":
+                - 5
+                - 7
+                - 11
+                - 49
+                - 53
+                - 54
+            "3":
+                - 2
+                - 13
+            "4": 3.10.18
+            "5": 0.21.0
+            "6": 4.53.2
+            "8":
+                - 1
+            "12": 0.21.0
+            "13": darwin-arm64

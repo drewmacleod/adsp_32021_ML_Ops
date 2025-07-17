@@ -1,0 +1,64 @@
+
+G
+'
+__dummy"
+__dummy_idJhw2_feature_repo
+®¤åÃ°ı×ô®¤åÃ°ı×ô
+e
+E
+
+athlete_idUnique athlete identifier"
+athlete_idJhw2_feature_repo
+®¤åÃÏÜô®¤åÃÏÜô1"$597277e5-9909-4327-889b-c3aa984b8db0*ÇÊåÃ°¬áÍ2ª
+Š
+athlete_features_v2hw2_feature_repo
+athlete_id"
+
+gender"
+
+height"
+
+weight"
+
+total_lift:event_timestampZ" data/athlete_features_v2.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢ data/athlete_features_v2.parquet@b
+
+athlete_id
+µÁåÃ˜æò/ğÂåÃ˜ÿõÄ2ª
+Š
+athlete_featureshw2_feature_repo
+athlete_id"
+
+gender"
+age"
+
+height"
+
+weight"	
+candj"
+
+snatch"
+deadlift"
+
+backsq"
+eat"	
+train"
+
+background"
+
+experience"
+schedule"
+howlong"
+
+total_lift:ˆevent_timestampZdata/athlete_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/athlete_features.parquet@b
+
+athlete_id
+®¤åÃ¸Œàô‡ÃåÃè™“KRé
+ğ
+,feast.infra.online_stores.sqlite.SqliteTable"¿
+™/Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2/hw2_feature_repo/feature_repo/data/online_store.db!hw2_feature_repo_athlete_features
+ó
+,feast.infra.online_stores.sqlite.SqliteTable"Â
+™/Users/drewmacl/Documents/U Chicago/Summer_2025/Machine Learning Operations/GitHub/Homework/Homework 2/hw2_feature_repo/feature_repo/data/online_store.db$hw2_feature_repo_athlete_features_v2b›event_timestampZdata/athlete_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/athlete_features.parquetªhw2_feature_repob¡event_timestampZ" data/athlete_features_v2.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢ data/athlete_features_v2.parquetªhw2_feature_repoŠ2
+
+hw2_feature_repo
+®¤åÃˆÍâà®¤åÃˆÍâà

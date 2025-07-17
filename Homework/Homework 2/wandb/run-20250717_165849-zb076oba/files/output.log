@@ -1,0 +1,7 @@
+[codecarbon INFO @ 16:58:52] Energy consumed for RAM : 0.000013 kWh. RAM Power : 3.0 W
+[codecarbon INFO @ 16:58:52] Delta energy consumed for CPU with constant : 0.000021 kWh, power : 5.0 W
+[codecarbon INFO @ 16:58:52] Energy consumed for All CPU : 0.000021 kWh
+[codecarbon INFO @ 16:58:52] 0.000033 kWh of electricity used since the beginning.
+MSE: 9.1734
+MAE: 1.9461
+R²:  0.9999
