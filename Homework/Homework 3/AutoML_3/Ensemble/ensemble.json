@@ -1,0 +1,68 @@
+{
+    "name": "Ensemble",
+    "ml_task": "regression",
+    "optimize_metric": "rmse",
+    "selected_models": [
+        {
+            "model": "10_LightGBM",
+            "repeat": 1.0
+        },
+        {
+            "model": "11_LightGBM",
+            "repeat": 1.0
+        },
+        {
+            "model": "14_CatBoost_GoldenFeatures",
+            "repeat": 7.0
+        },
+        {
+            "model": "15_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "27_CatBoost_GoldenFeatures",
+            "repeat": 3.0
+        },
+        {
+            "model": "29_CatBoost",
+            "repeat": 2.0
+        },
+        {
+            "model": "2_Default_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "31_LightGBM_GoldenFeatures",
+            "repeat": 5.0
+        },
+        {
+            "model": "32_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "33_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "34_Xgboost",
+            "repeat": 3.0
+        },
+        {
+            "model": "3_Default_CatBoost",
+            "repeat": 3.0
+        },
+        {
+            "model": "3_Default_CatBoost_GoldenFeatures",
+            "repeat": 1.0
+        },
+        {
+            "model": "8_Xgboost",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "rmse",
+    "final_loss": 138.92857769153983,
+    "train_time": 1.40547513961792,
+    "is_stacked": false
+}

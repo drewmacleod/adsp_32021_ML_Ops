@@ -1,0 +1,399 @@
+{
+    "uid": "b18bf3a0-dfca-4d50-b554-0e68d12892ac",
+    "name": "20_RandomForest",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    276.3304028201339
+                ],
+                "mean": [
+                    1017.9889635066896
+                ],
+                "var": [
+                    76358.49152273744
+                ],
+                "n_samples_seen": 19209,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "gender": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.2746592991086
+                ],
+                "mean": [
+                    1018.1675776979541
+                ],
+                "var": [
+                    76881.23668943673
+                ],
+                "n_samples_seen": 19209,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "gender": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.565526703395
+                ],
+                "mean": [
+                    1017.6612181155648
+                ],
+                "var": [
+                    77042.62161413307
+                ],
+                "n_samples_seen": 19210,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "gender": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.94486944817174
+                ],
+                "mean": [
+                    1016.8111920874544
+                ],
+                "var": [
+                    77253.35045256124
+                ],
+                "n_samples_seen": 19210,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "gender": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.0971014762263
+                ],
+                "mean": [
+                    1017.2128058302967
+                ],
+                "var": [
+                    76782.80364652607
+                ],
+                "n_samples_seen": 19210,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "gender": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "49e333fd-c1d9-4c2d-af1d-39da6f68f3a4",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1237,
+                "criterion": "squared_error",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "9681a3dc-d514-45fc-abd7-31a055c6aa48",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1237,
+                "criterion": "squared_error",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "a670ee94-69e6-409e-a64f-72f3b6df133c",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1237,
+                "criterion": "squared_error",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "67333a4b-c37f-4852-b33e-7a3f9508bb15",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1237,
+                "criterion": "squared_error",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "f989fe34-8bfc-4421-8870-0720b34210de",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1237,
+                "criterion": "squared_error",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 6,
+                "eval_metric_name": "rmse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "train_cant_improve_limit": 1,
+            "min_steps": 1,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "gender": [
+                    "categorical_to_int"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_4/X.data",
+            "y_path": "AutoML_4/y.data",
+            "results_path": "AutoML_4"
+        },
+        "learner": {
+            "model_type": "Random Forest",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1237,
+            "criterion": "squared_error",
+            "max_features": 1.0,
+            "min_samples_split": 40,
+            "max_depth": 6,
+            "eval_metric_name": "rmse",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "20_RandomForest",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "20_RandomForest/learner_fold_0.random_forest",
+        "20_RandomForest/learner_fold_1.random_forest",
+        "20_RandomForest/learner_fold_2.random_forest",
+        "20_RandomForest/learner_fold_3.random_forest",
+        "20_RandomForest/learner_fold_4.random_forest"
+    ],
+    "predictions_fname": "20_RandomForest/predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "170.21159610625853",
+    "train_time": 7.08213210105896,
+    "is_stacked": false,
+    "joblib_version": "1.5.1",
+    "single_prediction_time": 0.08102202415466309
+}

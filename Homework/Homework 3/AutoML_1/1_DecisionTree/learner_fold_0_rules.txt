@@ -1,0 +1,16 @@
+if (gender > 0.5) and (weight > 181.5) and (athlete_id <= 254100.0) then response: 1239.653 | based on 6,375 samples
+
+if (gender > 0.5) and (weight <= 181.5) and (athlete_id <= 253451.0) then response: 1105.871 | based on 3,959 samples
+
+if (gender <= 0.5) and (athlete_id <= 289438.5) and (weight > 127.5) then response: 747.725 | based on 3,304 samples
+
+if (gender > 0.5) and (weight > 181.5) and (athlete_id > 254100.0) then response: 1103.991 | based on 3,156 samples
+
+if (gender > 0.5) and (weight <= 181.5) and (athlete_id > 253451.0) then response: 967.562 | based on 2,270 samples
+
+if (gender <= 0.5) and (athlete_id > 289438.5) and (athlete_id > 457584.0) then response: 574.891 | based on 1,010 samples
+
+if (gender <= 0.5) and (athlete_id > 289438.5) and (athlete_id <= 457584.0) then response: 646.136 | based on 797 samples
+
+if (gender <= 0.5) and (athlete_id <= 289438.5) and (weight <= 127.5) then response: 652.862 | based on 739 samples
+

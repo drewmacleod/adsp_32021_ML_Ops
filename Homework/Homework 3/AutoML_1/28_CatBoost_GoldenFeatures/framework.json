@@ -1,0 +1,197 @@
+{
+    "uid": "5eedb598-09de-40ba-a88f-ea76fbf1d6d6",
+    "name": "28_CatBoost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "age",
+                        "feature2": "weight",
+                        "operation": "diff",
+                        "score": 0.5110012397
+                    },
+                    {
+                        "feature1": "weight",
+                        "feature2": "height",
+                        "operation": "sum",
+                        "score": 0.5317108666
+                    },
+                    {
+                        "feature1": "weight",
+                        "feature2": "height",
+                        "operation": "multiply",
+                        "score": 0.5436428964
+                    },
+                    {
+                        "feature1": "height",
+                        "feature2": "weight",
+                        "operation": "diff",
+                        "score": 0.5477656902
+                    },
+                    {
+                        "feature1": "weight",
+                        "feature2": "height",
+                        "operation": "ratio",
+                        "score": 0.5729992677
+                    },
+                    {
+                        "feature1": "height",
+                        "feature2": "weight",
+                        "operation": "ratio",
+                        "score": 0.5729992677
+                    },
+                    {
+                        "feature1": "weight",
+                        "feature2": "age",
+                        "operation": "sum",
+                        "score": 0.6147069892
+                    },
+                    {
+                        "feature1": "weight",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.7094567368
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "weight",
+                        "operation": "ratio",
+                        "score": 0.7094567368
+                    },
+                    {
+                        "feature1": "athlete_id",
+                        "feature2": "weight",
+                        "operation": "ratio",
+                        "score": 0.803233928
+                    }
+                ],
+                "new_columns": [
+                    "age_diff_weight",
+                    "weight_sum_height",
+                    "weight_multiply_height",
+                    "height_diff_weight",
+                    "weight_ratio_height",
+                    "height_ratio_weight",
+                    "weight_sum_age",
+                    "weight_ratio_age",
+                    "age_ratio_weight",
+                    "athlete_id_ratio_weight"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    277.76817919886275
+                ],
+                "mean": [
+                    1018.512124016659
+                ],
+                "var": [
+                    77155.16137545153
+                ],
+                "n_samples_seen": 21610,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "cc9653a5-a693-496c-a317-94186e743940",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "learning_rate": 0.05,
+                "depth": 8,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 545
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_1",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "X_path": "AutoML_1/X.data",
+            "y_path": "AutoML_1/y.data",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "learning_rate": 0.05,
+            "depth": 8,
+            "rsm": 0.8,
+            "loss_function": "RMSE",
+            "eval_metric": "RMSE",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "28_CatBoost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 60.0
+    },
+    "saved": [
+        "28_CatBoost_GoldenFeatures/learner_fold_0.catboost"
+    ],
+    "predictions_fname": "28_CatBoost_GoldenFeatures/predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": "132.28394291834255",
+    "train_time": 6.757236957550049,
+    "is_stacked": false,
+    "joblib_version": "1.5.1"
+}

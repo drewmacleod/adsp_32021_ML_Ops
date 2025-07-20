@@ -1,0 +1,559 @@
+{
+    "uid": "5a22b046-df99-4160-865f-da21c67ec81f",
+    "name": "55_NeuralNetwork",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        7.454698056871844,
+                        32.492204949260554,
+                        0.4435694747305272
+                    ],
+                    "mean": [
+                        32.15055442761206,
+                        177.25472434796188,
+                        0.730751210370139
+                    ],
+                    "var": [
+                        55.572523119128846,
+                        1055.7433824647521,
+                        0.1967538789127158
+                    ],
+                    "n_samples_seen": 19209,
+                    "n_features_in": 3,
+                    "columns": [
+                        "age",
+                        "weight",
+                        "gender"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    276.3304028201339
+                ],
+                "mean": [
+                    1017.9889635066896
+                ],
+                "var": [
+                    76358.49152273744
+                ],
+                "n_samples_seen": 19209,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "weight": [
+                        "scale_normal"
+                    ],
+                    "gender": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        7.445800446478983,
+                        32.37894406334815,
+                        0.4443247271987459
+                    ],
+                    "mean": [
+                        32.1252017283565,
+                        177.31308240928732,
+                        0.7292935603102713
+                    ],
+                    "var": [
+                        55.43994428878663,
+                        1048.3960186574286,
+                        0.19742446320023996
+                    ],
+                    "n_samples_seen": 19209,
+                    "n_features_in": 3,
+                    "columns": [
+                        "age",
+                        "weight",
+                        "gender"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.2746592991086
+                ],
+                "mean": [
+                    1018.1675776979541
+                ],
+                "var": [
+                    76881.23668943673
+                ],
+                "n_samples_seen": 19209,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "weight": [
+                        "scale_normal"
+                    ],
+                    "gender": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        7.4350622965284225,
+                        32.43821382877267,
+                        0.44538591809068073
+                    ],
+                    "mean": [
+                        32.13289953149401,
+                        177.07303487766788,
+                        0.7272254034357105
+                    ],
+                    "var": [
+                        55.2801513532585,
+                        1052.2377164011782,
+                        0.19836861603347855
+                    ],
+                    "n_samples_seen": 19210,
+                    "n_features_in": 3,
+                    "columns": [
+                        "age",
+                        "weight",
+                        "gender"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.565526703395
+                ],
+                "mean": [
+                    1017.6612181155648
+                ],
+                "var": [
+                    77042.62161413307
+                ],
+                "n_samples_seen": 19210,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "weight": [
+                        "scale_normal"
+                    ],
+                    "gender": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        7.435885353850047,
+                        32.37329030275694,
+                        0.44504001750314903
+                    ],
+                    "mean": [
+                        32.115252472670484,
+                        177.0077043206663,
+                        0.7279021343050495
+                    ],
+                    "var": [
+                        55.29239099560164,
+                        1048.0299250265766,
+                        0.19806061717920317
+                    ],
+                    "n_samples_seen": 19210,
+                    "n_features_in": 3,
+                    "columns": [
+                        "age",
+                        "weight",
+                        "gender"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.94486944817174
+                ],
+                "mean": [
+                    1016.8111920874544
+                ],
+                "var": [
+                    77253.35045256124
+                ],
+                "n_samples_seen": 19210,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "weight": [
+                        "scale_normal"
+                    ],
+                    "gender": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "gender": {
+                            "Female": 0,
+                            "Male": 1
+                        }
+                    },
+                    "columns": [
+                        "gender"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        7.44198670215563,
+                        32.228387875359324,
+                        0.44530621000644394
+                    ],
+                    "mean": [
+                        32.149505465903175,
+                        177.22457053617907,
+                        0.7273815720978657
+                    ],
+                    "var": [
+                        55.38316607506122,
+                        1038.668985044608,
+                        0.19829762067030313
+                    ],
+                    "n_samples_seen": 19210,
+                    "n_features_in": 3,
+                    "columns": [
+                        "age",
+                        "weight",
+                        "gender"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    277.0971014762263
+                ],
+                "mean": [
+                    1017.2128058302967
+                ],
+                "var": [
+                    76782.80364652607
+                ],
+                "n_samples_seen": 19210,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "weight": [
+                        "scale_normal"
+                    ],
+                    "gender": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "8b795e4b-b902-48de-a596-312fa03ad5e0",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 8,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "c28653f8-bb8d-470b-b2d5-850d2112efc4",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 8,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "0aacdacc-99ad-4761-8911-edddf63663c4",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 8,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "c5db0c13-e570-4fab-a3ea-51aee943ad73",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 8,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.7.0",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "542ac94b-8370-4224-9f93-b646a215721a",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 8,
+                "learning_rate": 0.01,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "age": [
+                    "scale_normal"
+                ],
+                "weight": [
+                    "scale_normal"
+                ],
+                "gender": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_4/X.data",
+            "y_path": "AutoML_4/y.data",
+            "results_path": "AutoML_4"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1236,
+            "dense_1_size": 64,
+            "dense_2_size": 8,
+            "learning_rate": 0.01,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "55_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "55_NeuralNetwork/learner_fold_0.neural_network",
+        "55_NeuralNetwork/learner_fold_1.neural_network",
+        "55_NeuralNetwork/learner_fold_2.neural_network",
+        "55_NeuralNetwork/learner_fold_3.neural_network",
+        "55_NeuralNetwork/learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "55_NeuralNetwork/predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "170.51525816964474",
+    "train_time": 9.249712944030762,
+    "is_stacked": false,
+    "joblib_version": "1.5.1",
+    "single_prediction_time": 0.017105817794799805
+}
