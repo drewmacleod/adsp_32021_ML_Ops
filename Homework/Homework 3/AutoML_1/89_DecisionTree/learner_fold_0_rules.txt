@@ -1,8 +1,0 @@
-if (gender > 0.5) and (weight > 181.5) then response: 1194.731 | based on 9,531 samples
-
-if (gender > 0.5) and (weight <= 181.5) then response: 1055.468 | based on 6,229 samples
-
-if (gender <= 0.5) and (athlete_id <= 289438.5) then response: 730.385 | based on 4,043 samples
-
-if (gender <= 0.5) and (athlete_id > 289438.5) then response: 606.314 | based on 1,807 samples
-

@@ -6,23 +6,19 @@
 ## Ensemble structure
 | Model              |   Weight |
 |:-------------------|---------:|
-| 10_LightGBM        |        3 |
-| 12_LightGBM        |        1 |
-| 14_CatBoost        |        2 |
-| 16_CatBoost        |        2 |
+| 10_LightGBM        |        1 |
+| 14_CatBoost        |        1 |
 | 2_Default_Xgboost  |        1 |
-| 3_Default_CatBoost |        5 |
-| 7_Xgboost          |        1 |
-| 8_Xgboost          |        1 |
+| 3_Default_CatBoost |        2 |
 
 ### Metric details:
 | Metric   |        Score |
 |:---------|-------------:|
-| MAE      |   101.189    |
-| MSE      | 17634.8      |
-| RMSE     |   132.796    |
-| R2       |     0.770571 |
-| MAPE     |     0.160786 |
+| MAE      |   106.452    |
+| MSE      | 19371.2      |
+| RMSE     |   139.18     |
+| R2       |     0.747981 |
+| MAPE     |     0.16745  |
 
 
 

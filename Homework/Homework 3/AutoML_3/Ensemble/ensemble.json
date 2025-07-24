@@ -4,65 +4,37 @@
     "optimize_metric": "rmse",
     "selected_models": [
         {
-            "model": "10_LightGBM",
-            "repeat": 1.0
-        },
-        {
-            "model": "11_LightGBM",
-            "repeat": 1.0
-        },
-        {
-            "model": "14_CatBoost_GoldenFeatures",
-            "repeat": 7.0
-        },
-        {
-            "model": "15_CatBoost",
-            "repeat": 1.0
-        },
-        {
-            "model": "27_CatBoost_GoldenFeatures",
-            "repeat": 3.0
-        },
-        {
-            "model": "29_CatBoost",
+            "model": "14_CatBoost",
             "repeat": 2.0
         },
         {
-            "model": "2_Default_Xgboost",
+            "model": "16_CatBoost",
             "repeat": 1.0
         },
         {
-            "model": "31_LightGBM_GoldenFeatures",
-            "repeat": 5.0
-        },
-        {
-            "model": "32_Xgboost",
+            "model": "17_CatBoost",
             "repeat": 1.0
         },
         {
-            "model": "33_Xgboost",
-            "repeat": 1.0
+            "model": "19_Xgboost",
+            "repeat": 2.0
         },
         {
-            "model": "34_Xgboost",
-            "repeat": 3.0
+            "model": "20_NeuralNetwork",
+            "repeat": 2.0
         },
         {
             "model": "3_Default_CatBoost",
-            "repeat": 3.0
+            "repeat": 4.0
         },
         {
-            "model": "3_Default_CatBoost_GoldenFeatures",
-            "repeat": 1.0
-        },
-        {
-            "model": "8_Xgboost",
+            "model": "4_Default_NeuralNetwork",
             "repeat": 1.0
         }
     ],
     "predictions_fname": "Ensemble/predictions_ensemble.csv",
     "metric_name": "rmse",
-    "final_loss": 138.92857769153983,
-    "train_time": 1.40547513961792,
+    "final_loss": 169.89021825687888,
+    "train_time": 0.19580388069152832,
     "is_stacked": false
 }

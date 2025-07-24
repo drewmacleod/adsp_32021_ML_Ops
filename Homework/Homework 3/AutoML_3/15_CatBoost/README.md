@@ -5,10 +5,10 @@
 
 ## CatBoost
 - **n_jobs**: -1
-- **learning_rate**: 0.1
+- **learning_rate**: 0.05
 - **depth**: 8
-- **rsm**: 1.0
-- **loss_function**: MAE
+- **rsm**: 0.7
+- **loss_function**: RMSE
 - **eval_metric**: RMSE
 - **explain_level**: 1
 
@@ -22,16 +22,16 @@ rmse
 
 ## Training time
 
-17.3 seconds
+9.4 seconds
 
 ### Metric details:
 | Metric   |        Score |
 |:---------|-------------:|
-| MAE      |   107.749    |
-| MSE      | 19786.2      |
-| RMSE     |   140.663    |
-| R2       |     0.742582 |
-| MAPE     |     0.168133 |
+| MAE      |   132.098    |
+| MSE      | 28905        |
+| RMSE     |   170.015    |
+| R2       |     0.623946 |
+| MAPE     |     0.193472 |
 
 
 

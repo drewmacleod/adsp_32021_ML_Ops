@@ -1,5 +1,5 @@
 {
-    "uid": "98b14388-4541-4634-b879-2811099df3b1",
+    "uid": "5eb8bc2a-1a40-4552-8861-9ce7d6a37ab2",
     "name": "10_LightGBM",
     "preprocessing": [
         {
@@ -1844,7 +1844,7 @@
             "library_version": "4.6.0",
             "algorithm_name": "LightGBM",
             "algorithm_short_name": "LightGBM",
-            "uid": "f251f083-9237-4423-b46e-73d2ba5b9b3b",
+            "uid": "1b8c275b-01f0-48f8-b281-ba40532e97ca",
             "params": {
                 "model_type": "LightGBM",
                 "ml_task": "regression",
@@ -1866,7 +1866,7 @@
             "library_version": "4.6.0",
             "algorithm_name": "LightGBM",
             "algorithm_short_name": "LightGBM",
-            "uid": "c6c9fc16-978a-4488-93e6-e156793711e7",
+            "uid": "59011515-72d0-4884-a84c-c22c433d2757",
             "params": {
                 "model_type": "LightGBM",
                 "ml_task": "regression",
@@ -1888,7 +1888,7 @@
             "library_version": "4.6.0",
             "algorithm_name": "LightGBM",
             "algorithm_short_name": "LightGBM",
-            "uid": "3a0c3cbc-d78a-445b-a7fc-cac601e1b477",
+            "uid": "cc8c5bcb-32c6-4dbf-a441-9291697f062e",
             "params": {
                 "model_type": "LightGBM",
                 "ml_task": "regression",
@@ -1910,7 +1910,7 @@
             "library_version": "4.6.0",
             "algorithm_name": "LightGBM",
             "algorithm_short_name": "LightGBM",
-            "uid": "f710a570-1ea3-487a-aec5-2ed9b5a3509a",
+            "uid": "41fb0740-4f6e-4295-b6a1-67c1b4065969",
             "params": {
                 "model_type": "LightGBM",
                 "ml_task": "regression",
@@ -1932,7 +1932,7 @@
             "library_version": "4.6.0",
             "algorithm_name": "LightGBM",
             "algorithm_short_name": "LightGBM",
-            "uid": "af012890-b985-4c5a-a9d3-61a148ece4e4",
+            "uid": "ba3e7252-83a8-49d0-ab1e-8c60c6604f67",
             "params": {
                 "model_type": "LightGBM",
                 "ml_task": "regression",
@@ -2030,9 +2030,9 @@
     ],
     "predictions_fname": "10_LightGBM/predictions_out_of_folds.csv",
     "metric_name": "rmse",
-    "final_loss": "133.83064014579074",
-    "train_time": 12.690931797027588,
+    "final_loss": "140.1663774399616",
+    "train_time": 12.584047079086304,
     "is_stacked": false,
     "joblib_version": "1.5.1",
-    "single_prediction_time": 0.015248775482177734
+    "single_prediction_time": 0.014611959457397461
 }

@@ -1,5 +1,5 @@
 {
-    "uid": "6b1f5843-ea02-4357-8d4d-ded54838321d",
+    "uid": "a66c105e-8967-48cf-9c6d-f6ed1714b4ec",
     "name": "4_Default_NeuralNetwork",
     "preprocessing": [
         {
@@ -314,7 +314,6 @@
             "scale": [
                 {
                     "scale": [
-                        166718.48413778644,
                         4.260161890264299,
                         0.4435694747305272,
                         7.454698056871844,
@@ -327,7 +326,6 @@
                         3.753336972179326
                     ],
                     "mean": [
-                        214475.23593107398,
                         9.206517778124837,
                         0.730751210370139,
                         32.15055442761206,
@@ -340,7 +338,6 @@
                         4.08938518402832
                     ],
                     "var": [
-                        27795052953.201347,
                         18.148979331260282,
                         0.1967538789127158,
                         55.572523119128846,
@@ -353,9 +350,8 @@
                         14.08753842672827
                     ],
                     "n_samples_seen": 19209,
-                    "n_features_in": 11,
+                    "n_features_in": 10,
                     "columns": [
-                        "athlete_id",
                         "region",
                         "gender",
                         "age",
@@ -390,9 +386,6 @@
             "ml_task": "regression",
             "params": {
                 "columns_preprocessing": {
-                    "athlete_id": [
-                        "scale_normal"
-                    ],
                     "region": [
                         "categorical_to_int",
                         "scale_normal"
@@ -758,7 +751,6 @@
             "scale": [
                 {
                     "scale": [
-                        165969.57701647704,
                         4.252222098340209,
                         0.4443247271987459,
                         7.445800446478983,
@@ -771,7 +763,6 @@
                         3.909068189267021
                     ],
                     "mean": [
-                        214959.24311520642,
                         9.235410484668645,
                         0.7292935603102713,
                         32.1252017283565,
@@ -784,7 +775,6 @@
                         4.143370295174137
                     ],
                     "var": [
-                        27545900495.0283,
                         18.081392773612805,
                         0.19742446320023996,
                         55.43994428878663,
@@ -797,9 +787,8 @@
                         15.280814108339348
                     ],
                     "n_samples_seen": 19209,
-                    "n_features_in": 11,
+                    "n_features_in": 10,
                     "columns": [
-                        "athlete_id",
                         "region",
                         "gender",
                         "age",
@@ -834,9 +823,6 @@
             "ml_task": "regression",
             "params": {
                 "columns_preprocessing": {
-                    "athlete_id": [
-                        "scale_normal"
-                    ],
                     "region": [
                         "categorical_to_int",
                         "scale_normal"
@@ -1207,7 +1193,6 @@
             "scale": [
                 {
                     "scale": [
-                        166199.97307301618,
                         4.256018343908287,
                         0.44538591809068073,
                         7.4350622965284225,
@@ -1220,7 +1205,6 @@
                         4.087189207402821
                     ],
                     "mean": [
-                        214525.15137948983,
                         9.20546590317543,
                         0.7272254034357105,
                         32.13289953149401,
@@ -1233,7 +1217,6 @@
                         4.22082248828735
                     ],
                     "var": [
-                        27622431049.471306,
                         18.11369214368384,
                         0.19836861603347855,
                         55.2801513532585,
@@ -1246,9 +1229,8 @@
                         16.7051156171101
                     ],
                     "n_samples_seen": 19210,
-                    "n_features_in": 11,
+                    "n_features_in": 10,
                     "columns": [
-                        "athlete_id",
                         "region",
                         "gender",
                         "age",
@@ -1283,9 +1265,6 @@
             "ml_task": "regression",
             "params": {
                 "columns_preprocessing": {
-                    "athlete_id": [
-                        "scale_normal"
-                    ],
                     "region": [
                         "categorical_to_int",
                         "scale_normal"
@@ -1655,7 +1634,6 @@
             "scale": [
                 {
                     "scale": [
-                        166326.98461669436,
                         4.255476323560711,
                         0.44504001750314903,
                         7.435885353850047,
@@ -1668,7 +1646,6 @@
                         3.7067993473980354
                     ],
                     "mean": [
-                        215046.67522123893,
                         9.216762103071318,
                         0.7279021343050495,
                         32.115252472670484,
@@ -1681,7 +1658,6 @@
                         3.555960437272254
                     ],
                     "var": [
-                        27664665811.68208,
                         18.10907874038579,
                         0.19806061717920317,
                         55.29239099560164,
@@ -1694,9 +1670,8 @@
                         13.740361401870501
                     ],
                     "n_samples_seen": 19210,
-                    "n_features_in": 11,
+                    "n_features_in": 10,
                     "columns": [
-                        "athlete_id",
                         "region",
                         "gender",
                         "age",
@@ -1731,9 +1706,6 @@
             "ml_task": "regression",
             "params": {
                 "columns_preprocessing": {
-                    "athlete_id": [
-                        "scale_normal"
-                    ],
                     "region": [
                         "categorical_to_int",
                         "scale_normal"
@@ -2104,7 +2076,6 @@
             "scale": [
                 {
                     "scale": [
-                        166222.2736979748,
                         4.25848007761826,
                         0.44530621000644394,
                         7.44198670215563,
@@ -2117,7 +2088,6 @@
                         4.052076275421406
                     ],
                     "mean": [
-                        214693.37756376888,
                         9.210515356585113,
                         0.7273815720978657,
                         32.149505465903175,
@@ -2130,7 +2100,6 @@
                         4.195314940135346
                     ],
                     "var": [
-                        27629844273.324444,
                         18.13465257147162,
                         0.19829762067030313,
                         55.38316607506122,
@@ -2143,9 +2112,8 @@
                         16.419322141833014
                     ],
                     "n_samples_seen": 19210,
-                    "n_features_in": 11,
+                    "n_features_in": 10,
                     "columns": [
-                        "athlete_id",
                         "region",
                         "gender",
                         "age",
@@ -2180,9 +2148,6 @@
             "ml_task": "regression",
             "params": {
                 "columns_preprocessing": {
-                    "athlete_id": [
-                        "scale_normal"
-                    ],
                     "region": [
                         "categorical_to_int",
                         "scale_normal"
@@ -2234,7 +2199,7 @@
             "library_version": "1.7.0",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "ca526697-6700-4ef9-8f2b-56335b538a2b",
+            "uid": "39110de4-7fd5-46a2-af51-b0257ad4babf",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
@@ -2251,7 +2216,7 @@
             "library_version": "1.7.0",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "00f5b5f4-d35f-46d3-a2d2-9c2fdf8274e8",
+            "uid": "496107c0-c86f-421b-8b2e-216b04aeddf6",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
@@ -2268,7 +2233,7 @@
             "library_version": "1.7.0",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "6df38e55-32a9-4f44-b3d5-22096847b6df",
+            "uid": "c393fc08-14ee-4246-b965-c5dccd239582",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
@@ -2285,7 +2250,7 @@
             "library_version": "1.7.0",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "39e906ab-73ac-4b6a-806d-ff927bb77653",
+            "uid": "5f72473e-b8c5-4f65-a2b9-82d6e0d22ed7",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
@@ -2302,7 +2267,7 @@
             "library_version": "1.7.0",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "12f24f89-8932-4adf-8d63-aceea92fedf4",
+            "uid": "df3442c1-0993-483b-a800-3ab34f3f2c64",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
@@ -2323,9 +2288,6 @@
         },
         "preprocessing": {
             "columns_preprocessing": {
-                "athlete_id": [
-                    "scale_normal"
-                ],
                 "region": [
                     "categorical_to_int",
                     "scale_normal"
@@ -2407,9 +2369,9 @@
     ],
     "predictions_fname": "4_Default_NeuralNetwork/predictions_out_of_folds.csv",
     "metric_name": "rmse",
-    "final_loss": "141.77270712882927",
-    "train_time": 7.85174298286438,
+    "final_loss": "151.07576045384414",
+    "train_time": 7.30997109413147,
     "is_stacked": false,
     "joblib_version": "1.5.1",
-    "single_prediction_time": 0.03892397880554199
+    "single_prediction_time": 0.02831578254699707
 }

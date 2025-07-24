@@ -1,58 +1,131 @@
 {
     "columns": [
         "athlete_id",
+        "name",
         "region",
+        "team",
+        "affiliate",
         "gender",
         "age",
         "height",
         "weight",
+        "fran",
+        "helen",
+        "grace",
+        "filthy50",
+        "fgonebad",
+        "run400",
+        "run5k",
+        "pullups",
         "eat",
+        "train",
         "background",
         "experience",
         "schedule",
         "howlong"
     ],
-    "rows": 24012,
-    "cols": 11,
+    "rows": 338404,
+    "cols": 23,
     "target_is_numeric": true,
     "columns_info": {
         "athlete_id": [
+            "missing_values",
             "scale"
         ],
+        "name": [
+            "text_transform"
+        ],
         "region": [
+            "missing_values",
             "categorical",
             "few_categories"
         ],
+        "team": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
+        "affiliate": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
         "gender": [
+            "missing_values",
             "categorical",
             "few_categories"
         ],
         "age": [
+            "missing_values",
             "scale"
         ],
         "height": [
+            "missing_values",
             "scale"
         ],
         "weight": [
+            "missing_values",
+            "scale"
+        ],
+        "fran": [
+            "missing_values",
+            "scale"
+        ],
+        "helen": [
+            "missing_values",
+            "scale"
+        ],
+        "grace": [
+            "missing_values",
+            "scale"
+        ],
+        "filthy50": [
+            "missing_values",
+            "scale"
+        ],
+        "fgonebad": [
+            "missing_values",
+            "scale"
+        ],
+        "run400": [
+            "missing_values",
+            "scale"
+        ],
+        "run5k": [
+            "missing_values",
+            "scale"
+        ],
+        "pullups": [
+            "missing_values",
             "scale"
         ],
         "eat": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
+        "train": [
+            "missing_values",
             "categorical",
             "many_categories"
         ],
         "background": [
+            "missing_values",
             "categorical",
             "many_categories"
         ],
         "experience": [
+            "missing_values",
             "categorical",
             "many_categories"
         ],
         "schedule": [
+            "missing_values",
             "categorical",
             "many_categories"
         ],
         "howlong": [
+            "missing_values",
             "categorical",
             "many_categories"
         ]
@@ -60,7 +133,7 @@
     "target_info": [
         "scale"
     ],
-    "n_features": 11,
+    "n_features": 23,
     "is_sample_weighted": false,
     "is_fairness_applied": false
 }

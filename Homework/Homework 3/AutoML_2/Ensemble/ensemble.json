@@ -5,19 +5,11 @@
     "selected_models": [
         {
             "model": "10_LightGBM",
-            "repeat": 3.0
-        },
-        {
-            "model": "12_LightGBM",
             "repeat": 1.0
         },
         {
             "model": "14_CatBoost",
-            "repeat": 2.0
-        },
-        {
-            "model": "16_CatBoost",
-            "repeat": 2.0
+            "repeat": 1.0
         },
         {
             "model": "2_Default_Xgboost",
@@ -25,20 +17,12 @@
         },
         {
             "model": "3_Default_CatBoost",
-            "repeat": 5.0
-        },
-        {
-            "model": "7_Xgboost",
-            "repeat": 1.0
-        },
-        {
-            "model": "8_Xgboost",
-            "repeat": 1.0
+            "repeat": 2.0
         }
     ],
     "predictions_fname": "Ensemble/predictions_ensemble.csv",
     "metric_name": "rmse",
-    "final_loss": 132.79615972132547,
-    "train_time": 0.3789970874786377,
+    "final_loss": 139.18028936195273,
+    "train_time": 0.09915804862976074,
     "is_stacked": false
 }

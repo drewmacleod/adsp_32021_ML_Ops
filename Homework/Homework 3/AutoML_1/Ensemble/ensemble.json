@@ -4,49 +4,13 @@
     "optimize_metric": "rmse",
     "selected_models": [
         {
-            "model": "11_Xgboost",
-            "repeat": 15.0
-        },
-        {
-            "model": "18_Xgboost",
-            "repeat": 4.0
-        },
-        {
-            "model": "28_CatBoost",
-            "repeat": 2.0
-        },
-        {
-            "model": "62_NeuralNetwork",
-            "repeat": 5.0
-        },
-        {
-            "model": "65_CatBoost_GoldenFeatures",
-            "repeat": 32.0
-        },
-        {
-            "model": "6_Default_CatBoost_GoldenFeatures",
-            "repeat": 11.0
-        },
-        {
-            "model": "78_LightGBM",
+            "model": "8_LightGBM",
             "repeat": 1.0
-        },
-        {
-            "model": "90_CatBoost_GoldenFeatures",
-            "repeat": 1.0
-        },
-        {
-            "model": "96_LightGBM",
-            "repeat": 3.0
-        },
-        {
-            "model": "97_Xgboost_SelectedFeatures",
-            "repeat": 22.0
         }
     ],
     "predictions_fname": "Ensemble/predictions_ensemble.csv",
     "metric_name": "rmse",
-    "final_loss": 131.13716977253046,
-    "train_time": 9.537707090377808,
+    "final_loss": 40804.515359440455,
+    "train_time": 0.08966565132141113,
     "is_stacked": false
 }

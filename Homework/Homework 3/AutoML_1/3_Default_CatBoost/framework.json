@@ -1,0 +1,2436 @@
+{
+    "uid": "20e4a938-445c-47fa-b610-905e378e7949",
+    "name": "3_Default_CatBoost",
+    "preprocessing": [
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "athlete_id": 275601.5,
+                        "region": "Europe",
+                        "team": "CrossFit NYC",
+                        "affiliate": "Unaffiliated",
+                        "gender": "Male",
+                        "age": 31.0,
+                        "height": 69.0,
+                        "weight": 170.0,
+                        "fran": 290.0,
+                        "helen": 595.0,
+                        "grace": 193.0,
+                        "filthy50": 1545.0,
+                        "fgonebad": 294.0,
+                        "run400": 70.0,
+                        "run5k": 1378.0,
+                        "pullups": 27.0,
+                        "eat": "I eat quality foods but don't measure the amount|",
+                        "train": "I workout mostly at a CrossFit Affiliate|",
+                        "background": "I played youth or high school level sports|",
+                        "experience": "I began CrossFit with a coach (e.g. at an affiliate)|",
+                        "schedule": "I usually only do 1 workout a day|",
+                        "howlong": "1-2 years|"
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "text_transforms": [
+                {
+                    "new_columns": [
+                        "name_aaron",
+                        "name_adam",
+                        "name_alex",
+                        "name_amanda",
+                        "name_amy",
+                        "name_anderson",
+                        "name_andrea",
+                        "name_andrew",
+                        "name_anthony",
+                        "name_ashley",
+                        "name_ben",
+                        "name_brandon",
+                        "name_brian",
+                        "name_brown",
+                        "name_bryan",
+                        "name_carlos",
+                        "name_chad",
+                        "name_chris",
+                        "name_christopher",
+                        "name_craig",
+                        "name_dan",
+                        "name_daniel",
+                        "name_danielle",
+                        "name_david",
+                        "name_davis",
+                        "name_emily",
+                        "name_eric",
+                        "name_erin",
+                        "name_garcia",
+                        "name_greg",
+                        "name_heather",
+                        "name_james",
+                        "name_jamie",
+                        "name_jason",
+                        "name_jeff",
+                        "name_jennifer",
+                        "name_jeremy",
+                        "name_jessica",
+                        "name_joe",
+                        "name_john",
+                        "name_johnson",
+                        "name_jonathan",
+                        "name_jones",
+                        "name_jordan",
+                        "name_jose",
+                        "name_joseph",
+                        "name_josh",
+                        "name_joshua",
+                        "name_julie",
+                        "name_justin",
+                        "name_katie",
+                        "name_kelly",
+                        "name_kevin",
+                        "name_kim",
+                        "name_kyle",
+                        "name_laura",
+                        "name_lauren",
+                        "name_lee",
+                        "name_lisa",
+                        "name_mark",
+                        "name_martin",
+                        "name_martinez",
+                        "name_matt",
+                        "name_matthew",
+                        "name_megan",
+                        "name_melissa",
+                        "name_michael",
+                        "name_michelle",
+                        "name_mike",
+                        "name_miller",
+                        "name_nathan",
+                        "name_nick",
+                        "name_nicole",
+                        "name_patrick",
+                        "name_paul",
+                        "name_peter",
+                        "name_rachel",
+                        "name_richard",
+                        "name_rob",
+                        "name_robert",
+                        "name_rodriguez",
+                        "name_ryan",
+                        "name_sam",
+                        "name_sara",
+                        "name_sarah",
+                        "name_scott",
+                        "name_sean",
+                        "name_smith",
+                        "name_stephanie",
+                        "name_stephen",
+                        "name_steve",
+                        "name_steven",
+                        "name_taylor",
+                        "name_thomas",
+                        "name_tim",
+                        "name_tom",
+                        "name_tyler",
+                        "name_van",
+                        "name_williams",
+                        "name_wilson"
+                    ],
+                    "old_column": "name",
+                    "vocabulary": {
+                        "johnson": 40,
+                        "kelly": 51,
+                        "ryan": 81,
+                        "smith": 87,
+                        "stephanie": 88,
+                        "jason": 33,
+                        "jordan": 43,
+                        "joe": 38,
+                        "adam": 1,
+                        "michael": 66,
+                        "steven": 91,
+                        "jones": 42,
+                        "paul": 74,
+                        "david": 23,
+                        "joshua": 47,
+                        "john": 39,
+                        "sarah": 84,
+                        "emily": 25,
+                        "jeff": 34,
+                        "megan": 64,
+                        "lisa": 58,
+                        "ben": 10,
+                        "justin": 49,
+                        "erin": 27,
+                        "matthew": 63,
+                        "christopher": 18,
+                        "sean": 86,
+                        "melissa": 65,
+                        "tim": 94,
+                        "daniel": 21,
+                        "matt": 62,
+                        "rob": 78,
+                        "aaron": 0,
+                        "scott": 85,
+                        "wilson": 99,
+                        "tom": 95,
+                        "davis": 24,
+                        "rachel": 76,
+                        "amanda": 3,
+                        "ashley": 9,
+                        "mark": 59,
+                        "martin": 60,
+                        "sam": 82,
+                        "williams": 98,
+                        "steve": 90,
+                        "andrew": 7,
+                        "nick": 71,
+                        "brown": 13,
+                        "jessica": 37,
+                        "chris": 17,
+                        "michelle": 67,
+                        "kevin": 52,
+                        "alex": 2,
+                        "heather": 30,
+                        "james": 31,
+                        "tyler": 96,
+                        "garcia": 28,
+                        "patrick": 73,
+                        "josh": 46,
+                        "lauren": 56,
+                        "nicole": 72,
+                        "brian": 12,
+                        "carlos": 15,
+                        "joseph": 45,
+                        "julie": 48,
+                        "anthony": 8,
+                        "miller": 69,
+                        "thomas": 93,
+                        "rodriguez": 80,
+                        "chad": 16,
+                        "jennifer": 35,
+                        "kim": 53,
+                        "mike": 68,
+                        "katie": 50,
+                        "martinez": 61,
+                        "van": 97,
+                        "robert": 79,
+                        "jonathan": 41,
+                        "taylor": 92,
+                        "andrea": 6,
+                        "eric": 26,
+                        "stephen": 89,
+                        "jose": 44,
+                        "bryan": 14,
+                        "richard": 77,
+                        "amy": 4,
+                        "laura": 55,
+                        "peter": 75,
+                        "craig": 19,
+                        "danielle": 22,
+                        "greg": 29,
+                        "kyle": 54,
+                        "jeremy": 36,
+                        "lee": 57,
+                        "nathan": 70,
+                        "jamie": 32,
+                        "dan": 20,
+                        "brandon": 11,
+                        "anderson": 5,
+                        "sara": 83
+                    },
+                    "fixed_vocabulary": false,
+                    "idf": [
+                        6.742885171707228,
+                        6.254097366557287,
+                        6.467800524092411,
+                        6.425101098418581,
+                        6.48928241290831,
+                        7.025181674226417,
+                        7.031058282715402,
+                        6.0300508806444855,
+                        6.69262333692634,
+                        6.4622232647943045,
+                        6.533682228776449,
+                        6.728265028252266,
+                        6.024291325486119,
+                        6.7458350263536495,
+                        7.095989808377583,
+                        7.058948536697234,
+                        7.104410910773992,
+                        5.572763135724053,
+                        6.578894571597997,
+                        7.036969629978459,
+                        6.6870367302177005,
+                        5.961009875538599,
+                        7.071143809791052,
+                        5.534650475413382,
+                        6.97750820475706,
+                        6.846774016753598,
+                        6.291837694540135,
+                        6.828959780478471,
+                        6.919625865139594,
+                        7.029095573547553,
+                        6.7399439931164125,
+                        5.991107906695878,
+                        7.0020146149448825,
+                        5.844125716347232,
+                        6.480181098661965,
+                        6.046062867569392,
+                        6.816200436724711,
+                        6.1717641841707715,
+                        6.5689442407448295,
+                        5.766299076062607,
+                        6.540876504410476,
+                        6.562775189718114,
+                        6.647441114133107,
+                        6.968240297826278,
+                        7.085562185215324,
+                        6.8582778412350835,
+                        6.537272896907178,
+                        6.696833869462684,
+                        7.04690019818106,
+                        6.300316313395687,
+                        6.650122080886365,
+                        6.38930780381263,
+                        6.239747344527482,
+                        6.4644504372071285,
+                        6.638113931257968,
+                        6.557867204405921,
+                        6.673205251069239,
+                        6.5112359231241825,
+                        6.577645352197566,
+                        6.158540850996082,
+                        6.555422215412855,
+                        7.102298977570848,
+                        5.873942345588289,
+                        6.150364190558837,
+                        6.819375042565484,
+                        6.559091944301818,
+                        5.383458098294348,
+                        6.441308908645434,
+                        6.046062867569392,
+                        6.699650772733797,
+                        7.021283033810759,
+                        6.501933530461869,
+                        6.673205251069239,
+                        6.628872941404238,
+                        6.33008327353521,
+                        6.9004781957254595,
+                        6.824155928165826,
+                        6.942738005015342,
+                        7.069100908161253,
+                        6.39970290781297,
+                        7.069100908161253,
+                        5.744356341596101,
+                        7.095989808377583,
+                        7.067062171471404,
+                        6.161006943491276,
+                        6.005094148670618,
+                        6.6301878659855475,
+                        5.991107906695878,
+                        6.550550098588855,
+                        7.050900203514406,
+                        6.670461765123488,
+                        6.94094105933864,
+                        6.594008209408045,
+                        6.3800437128528324,
+                        6.6407699753160845,
+                        6.9337853937432286,
+                        6.85662631319661,
+                        6.7195944537011325,
+                        6.658208378317723,
+                        6.996305750724562
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    32342.19251044361
+                ],
+                "mean": [
+                    310.39121906893763
+                ],
+                "var": [
+                    1046017416.3825947
+                ],
+                "n_samples_seen": 270723,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "athlete_id": [
+                        "na_fill_median"
+                    ],
+                    "name": [
+                        "text_transform"
+                    ],
+                    "region": [
+                        "na_fill_median"
+                    ],
+                    "team": [
+                        "na_fill_median"
+                    ],
+                    "affiliate": [
+                        "na_fill_median"
+                    ],
+                    "gender": [
+                        "na_fill_median"
+                    ],
+                    "age": [
+                        "na_fill_median"
+                    ],
+                    "height": [
+                        "na_fill_median"
+                    ],
+                    "weight": [
+                        "na_fill_median"
+                    ],
+                    "fran": [
+                        "na_fill_median"
+                    ],
+                    "helen": [
+                        "na_fill_median"
+                    ],
+                    "grace": [
+                        "na_fill_median"
+                    ],
+                    "filthy50": [
+                        "na_fill_median"
+                    ],
+                    "fgonebad": [
+                        "na_fill_median"
+                    ],
+                    "run400": [
+                        "na_fill_median"
+                    ],
+                    "run5k": [
+                        "na_fill_median"
+                    ],
+                    "pullups": [
+                        "na_fill_median"
+                    ],
+                    "eat": [
+                        "na_fill_median"
+                    ],
+                    "train": [
+                        "na_fill_median"
+                    ],
+                    "background": [
+                        "na_fill_median"
+                    ],
+                    "experience": [
+                        "na_fill_median"
+                    ],
+                    "schedule": [
+                        "na_fill_median"
+                    ],
+                    "howlong": [
+                        "na_fill_median"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "region": "Europe",
+                        "team": "CrossFit NYC",
+                        "affiliate": "Unaffiliated",
+                        "gender": "Male",
+                        "age": 31.0,
+                        "height": 69.0,
+                        "weight": 170.0,
+                        "fran": 290.0,
+                        "helen": 595.0,
+                        "grace": 193.0,
+                        "filthy50": 1538.0,
+                        "fgonebad": 295.0,
+                        "run400": 70.0,
+                        "run5k": 1380.0,
+                        "pullups": 27.0,
+                        "eat": "I eat quality foods but don't measure the amount|",
+                        "train": "I workout mostly at a CrossFit Affiliate|",
+                        "background": "I played youth or high school level sports|",
+                        "experience": "I began CrossFit with a coach (e.g. at an affiliate)|",
+                        "schedule": "I usually only do 1 workout a day|",
+                        "howlong": "1-2 years|"
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "text_transforms": [
+                {
+                    "new_columns": [
+                        "name_aaron",
+                        "name_adam",
+                        "name_alex",
+                        "name_amanda",
+                        "name_amy",
+                        "name_anderson",
+                        "name_andrea",
+                        "name_andrew",
+                        "name_anthony",
+                        "name_ashley",
+                        "name_ben",
+                        "name_brad",
+                        "name_brandon",
+                        "name_brian",
+                        "name_brown",
+                        "name_bryan",
+                        "name_chris",
+                        "name_christopher",
+                        "name_craig",
+                        "name_dan",
+                        "name_daniel",
+                        "name_danielle",
+                        "name_david",
+                        "name_davis",
+                        "name_emily",
+                        "name_eric",
+                        "name_erin",
+                        "name_garcia",
+                        "name_greg",
+                        "name_heather",
+                        "name_james",
+                        "name_jamie",
+                        "name_jason",
+                        "name_jeff",
+                        "name_jennifer",
+                        "name_jeremy",
+                        "name_jessica",
+                        "name_joe",
+                        "name_john",
+                        "name_johnson",
+                        "name_jonathan",
+                        "name_jones",
+                        "name_jordan",
+                        "name_jose",
+                        "name_joseph",
+                        "name_josh",
+                        "name_joshua",
+                        "name_julie",
+                        "name_justin",
+                        "name_katie",
+                        "name_kelly",
+                        "name_kevin",
+                        "name_kim",
+                        "name_kyle",
+                        "name_laura",
+                        "name_lauren",
+                        "name_lee",
+                        "name_lisa",
+                        "name_mark",
+                        "name_martin",
+                        "name_martinez",
+                        "name_matt",
+                        "name_matthew",
+                        "name_megan",
+                        "name_melissa",
+                        "name_michael",
+                        "name_michelle",
+                        "name_mike",
+                        "name_miller",
+                        "name_nathan",
+                        "name_nick",
+                        "name_nicole",
+                        "name_patrick",
+                        "name_paul",
+                        "name_peter",
+                        "name_rachel",
+                        "name_richard",
+                        "name_rob",
+                        "name_robert",
+                        "name_rodriguez",
+                        "name_ryan",
+                        "name_sam",
+                        "name_sara",
+                        "name_sarah",
+                        "name_scott",
+                        "name_sean",
+                        "name_smith",
+                        "name_stephanie",
+                        "name_stephen",
+                        "name_steve",
+                        "name_steven",
+                        "name_taylor",
+                        "name_thomas",
+                        "name_tim",
+                        "name_tom",
+                        "name_tyler",
+                        "name_van",
+                        "name_william",
+                        "name_williams",
+                        "name_wilson"
+                    ],
+                    "old_column": "name",
+                    "vocabulary": {
+                        "johnson": 39,
+                        "brad": 11,
+                        "mark": 58,
+                        "jason": 32,
+                        "kelly": 50,
+                        "ryan": 80,
+                        "stephanie": 87,
+                        "josh": 45,
+                        "jordan": 42,
+                        "william": 97,
+                        "james": 30,
+                        "steven": 90,
+                        "chris": 16,
+                        "jones": 41,
+                        "paul": 73,
+                        "david": 22,
+                        "robert": 78,
+                        "joshua": 46,
+                        "sarah": 83,
+                        "emily": 24,
+                        "jeff": 33,
+                        "smith": 86,
+                        "lisa": 57,
+                        "ben": 10,
+                        "justin": 48,
+                        "melissa": 64,
+                        "erin": 26,
+                        "matthew": 62,
+                        "christopher": 17,
+                        "tim": 93,
+                        "daniel": 20,
+                        "anderson": 5,
+                        "jennifer": 34,
+                        "aaron": 0,
+                        "scott": 84,
+                        "wilson": 99,
+                        "laura": 54,
+                        "davis": 23,
+                        "sean": 85,
+                        "amanda": 3,
+                        "ashley": 9,
+                        "adam": 1,
+                        "martin": 59,
+                        "rob": 77,
+                        "john": 38,
+                        "sam": 81,
+                        "williams": 98,
+                        "steve": 89,
+                        "jamie": 31,
+                        "nick": 70,
+                        "brown": 14,
+                        "jose": 43,
+                        "michelle": 66,
+                        "kevin": 51,
+                        "joe": 37,
+                        "michael": 65,
+                        "tyler": 95,
+                        "garcia": 27,
+                        "thomas": 92,
+                        "mike": 67,
+                        "matt": 61,
+                        "alex": 2,
+                        "lauren": 55,
+                        "anthony": 8,
+                        "nicole": 71,
+                        "brian": 13,
+                        "joseph": 44,
+                        "julie": 47,
+                        "miller": 68,
+                        "kim": 52,
+                        "andrew": 7,
+                        "patrick": 72,
+                        "richard": 76,
+                        "katie": 49,
+                        "jessica": 36,
+                        "martinez": 60,
+                        "van": 96,
+                        "taylor": 91,
+                        "andrea": 6,
+                        "jeremy": 35,
+                        "kyle": 53,
+                        "megan": 63,
+                        "brandon": 12,
+                        "stephen": 88,
+                        "bryan": 15,
+                        "rodriguez": 79,
+                        "amy": 4,
+                        "tom": 94,
+                        "peter": 74,
+                        "greg": 28,
+                        "craig": 18,
+                        "jonathan": 40,
+                        "eric": 25,
+                        "danielle": 21,
+                        "heather": 29,
+                        "rachel": 75,
+                        "lee": 56,
+                        "nathan": 69,
+                        "dan": 19,
+                        "sara": 82
+                    },
+                    "fixed_vocabulary": false,
+                    "idf": [
+                        6.735043115293515,
+                        6.258119043203206,
+                        6.4933590560635635,
+                        6.418185553707803,
+                        6.475156050606486,
+                        6.9882390116741275,
+                        7.0015093485950235,
+                        6.013785975801677,
+                        6.6865314638678415,
+                        6.451756654314773,
+                        6.5610406669135255,
+                        7.074736909833476,
+                        6.7572169727878375,
+                        6.031714028588451,
+                        6.716215622155542,
+                        7.08921492901413,
+                        5.5474314983958575,
+                        6.5709172904094375,
+                        7.0564251061911385,
+                        6.679591810757302,
+                        5.95512825215236,
+                        7.082984379263493,
+                        5.515836066395732,
+                        6.971431893357746,
+                        6.790654738415165,
+                        6.295091831114182,
+                        6.867739434800616,
+                        6.931499183022375,
+                        7.087133762810304,
+                        6.766226042730203,
+                        6.0059983258239935,
+                        6.9567257459680505,
+                        5.804814875575579,
+                        6.496809318255716,
+                        6.038976224630235,
+                        6.81095207847884,
+                        6.156394895188764,
+                        6.58843964110164,
+                        5.723973977092071,
+                        6.572158755497503,
+                        6.5709172904094375,
+                        6.653651789748685,
+                        6.96589171298213,
+                        7.072685627062919,
+                        6.87949439803206,
+                        6.557361938056063,
+                        6.724861209148396,
+                        7.011097149750177,
+                        6.264491390665465,
+                        6.644262049398846,
+                        6.383645228455627,
+                        6.223340683053991,
+                        6.4819434069798865,
+                        6.611429159326339,
+                        6.577140085847707,
+                        6.67269998471938,
+                        6.492211609007087,
+                        6.5684389743949705,
+                        6.162149123972016,
+                        6.539168592094858,
+                        7.114532736998419,
+                        5.894030630721272,
+                        6.135307333568668,
+                        6.7512557032713385,
+                        6.516588904342692,
+                        5.400503835685521,
+                        6.435371798413214,
+                        6.027381891849316,
+                        6.74385374497567,
+                        7.022725187745296,
+                        6.552477923463638,
+                        6.653651789748685,
+                        6.624433243749546,
+                        6.346286012562457,
+                        6.864406098380859,
+                        6.781423903639634,
+                        6.920879614194915,
+                        7.0564251061911385,
+                        6.377491362881249,
+                        7.074736909833476,
+                        5.735745113542282,
+                        7.074736909833476,
+                        7.0913004355051505,
+                        6.1474189067316125,
+                        5.997571309662113,
+                        6.636283283667042,
+                        5.978866226720861,
+                        6.516588904342692,
+                        6.993904749209805,
+                        6.67269998471938,
+                        6.913862041536268,
+                        6.59604424048686,
+                        6.355245753933929,
+                        6.676829378061391,
+                        6.945836346168782,
+                        6.869410278965434,
+                        6.697736062880705,
+                        7.082984379263493,
+                        6.6782096405303495,
+                        6.990124026369899
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    32359.904966592825
+                ],
+                "mean": [
+                    312.4189485193353
+                ],
+                "var": [
+                    1047163449.446919
+                ],
+                "n_samples_seen": 270723,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "athlete_id": [
+                        "na_fill_median"
+                    ],
+                    "name": [
+                        "text_transform"
+                    ],
+                    "region": [
+                        "na_fill_median"
+                    ],
+                    "team": [
+                        "na_fill_median"
+                    ],
+                    "affiliate": [
+                        "na_fill_median"
+                    ],
+                    "gender": [
+                        "na_fill_median"
+                    ],
+                    "age": [
+                        "na_fill_median"
+                    ],
+                    "height": [
+                        "na_fill_median"
+                    ],
+                    "weight": [
+                        "na_fill_median"
+                    ],
+                    "fran": [
+                        "na_fill_median"
+                    ],
+                    "helen": [
+                        "na_fill_median"
+                    ],
+                    "grace": [
+                        "na_fill_median"
+                    ],
+                    "filthy50": [
+                        "na_fill_median"
+                    ],
+                    "fgonebad": [
+                        "na_fill_median"
+                    ],
+                    "run400": [
+                        "na_fill_median"
+                    ],
+                    "run5k": [
+                        "na_fill_median"
+                    ],
+                    "pullups": [
+                        "na_fill_median"
+                    ],
+                    "eat": [
+                        "na_fill_median"
+                    ],
+                    "train": [
+                        "na_fill_median"
+                    ],
+                    "background": [
+                        "na_fill_median"
+                    ],
+                    "experience": [
+                        "na_fill_median"
+                    ],
+                    "schedule": [
+                        "na_fill_median"
+                    ],
+                    "howlong": [
+                        "na_fill_median"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "athlete_id": 275952.5,
+                        "region": "Europe",
+                        "team": "CrossFit NYC",
+                        "affiliate": "Unaffiliated",
+                        "gender": "Male",
+                        "age": 31.0,
+                        "height": 69.0,
+                        "weight": 170.0,
+                        "fran": 289.0,
+                        "helen": 594.0,
+                        "grace": 193.0,
+                        "filthy50": 1537.0,
+                        "fgonebad": 295.0,
+                        "run400": 70.0,
+                        "run5k": 1379.5,
+                        "pullups": 27.0,
+                        "eat": "I eat quality foods but don't measure the amount|",
+                        "train": "I workout mostly at a CrossFit Affiliate|",
+                        "background": "I played youth or high school level sports|",
+                        "experience": "I began CrossFit with a coach (e.g. at an affiliate)|",
+                        "schedule": "I usually only do 1 workout a day|",
+                        "howlong": "1-2 years|"
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "text_transforms": [
+                {
+                    "new_columns": [
+                        "name_aaron",
+                        "name_adam",
+                        "name_alex",
+                        "name_amanda",
+                        "name_amy",
+                        "name_anderson",
+                        "name_andrea",
+                        "name_andrew",
+                        "name_anthony",
+                        "name_ashley",
+                        "name_ben",
+                        "name_brad",
+                        "name_brandon",
+                        "name_brian",
+                        "name_brown",
+                        "name_bryan",
+                        "name_carlos",
+                        "name_chris",
+                        "name_christopher",
+                        "name_craig",
+                        "name_dan",
+                        "name_daniel",
+                        "name_danielle",
+                        "name_david",
+                        "name_davis",
+                        "name_emily",
+                        "name_eric",
+                        "name_erin",
+                        "name_garcia",
+                        "name_greg",
+                        "name_heather",
+                        "name_james",
+                        "name_jamie",
+                        "name_jason",
+                        "name_jeff",
+                        "name_jennifer",
+                        "name_jeremy",
+                        "name_jessica",
+                        "name_joe",
+                        "name_john",
+                        "name_johnson",
+                        "name_jonathan",
+                        "name_jones",
+                        "name_jordan",
+                        "name_jose",
+                        "name_joseph",
+                        "name_josh",
+                        "name_joshua",
+                        "name_julie",
+                        "name_justin",
+                        "name_katie",
+                        "name_kelly",
+                        "name_kevin",
+                        "name_kim",
+                        "name_kyle",
+                        "name_laura",
+                        "name_lauren",
+                        "name_lee",
+                        "name_lisa",
+                        "name_mark",
+                        "name_martin",
+                        "name_martinez",
+                        "name_matt",
+                        "name_matthew",
+                        "name_megan",
+                        "name_melissa",
+                        "name_michael",
+                        "name_michelle",
+                        "name_mike",
+                        "name_miller",
+                        "name_nathan",
+                        "name_nick",
+                        "name_nicole",
+                        "name_patrick",
+                        "name_paul",
+                        "name_peter",
+                        "name_rachel",
+                        "name_richard",
+                        "name_rob",
+                        "name_robert",
+                        "name_rodriguez",
+                        "name_ryan",
+                        "name_sara",
+                        "name_sarah",
+                        "name_scott",
+                        "name_sean",
+                        "name_smith",
+                        "name_stephanie",
+                        "name_stephen",
+                        "name_steve",
+                        "name_steven",
+                        "name_taylor",
+                        "name_thomas",
+                        "name_tim",
+                        "name_tom",
+                        "name_tyler",
+                        "name_van",
+                        "name_william",
+                        "name_williams",
+                        "name_wilson"
+                    ],
+                    "old_column": "name",
+                    "vocabulary": {
+                        "johnson": 40,
+                        "mark": 59,
+                        "jason": 33,
+                        "ryan": 81,
+                        "smith": 86,
+                        "stephanie": 87,
+                        "josh": 46,
+                        "jordan": 43,
+                        "william": 97,
+                        "james": 31,
+                        "joe": 38,
+                        "adam": 1,
+                        "michael": 66,
+                        "steven": 90,
+                        "chris": 17,
+                        "jones": 42,
+                        "paul": 74,
+                        "david": 23,
+                        "robert": 79,
+                        "john": 39,
+                        "sarah": 83,
+                        "emily": 25,
+                        "megan": 64,
+                        "lisa": 58,
+                        "melissa": 65,
+                        "sean": 85,
+                        "tim": 93,
+                        "daniel": 21,
+                        "matt": 62,
+                        "kelly": 51,
+                        "rob": 78,
+                        "anderson": 5,
+                        "jennifer": 35,
+                        "justin": 49,
+                        "tom": 94,
+                        "laura": 55,
+                        "davis": 24,
+                        "scott": 84,
+                        "rachel": 76,
+                        "amanda": 3,
+                        "ashley": 9,
+                        "aaron": 0,
+                        "ben": 10,
+                        "andrew": 7,
+                        "jeff": 34,
+                        "jamie": 32,
+                        "nick": 71,
+                        "brown": 14,
+                        "jose": 44,
+                        "jessica": 37,
+                        "michelle": 67,
+                        "alex": 2,
+                        "christopher": 18,
+                        "heather": 30,
+                        "garcia": 28,
+                        "thomas": 92,
+                        "patrick": 73,
+                        "mike": 68,
+                        "erin": 27,
+                        "lauren": 56,
+                        "wilson": 99,
+                        "martin": 60,
+                        "anthony": 8,
+                        "brian": 13,
+                        "carlos": 16,
+                        "julie": 48,
+                        "kim": 53,
+                        "kevin": 52,
+                        "rodriguez": 80,
+                        "richard": 77,
+                        "katie": 50,
+                        "steve": 89,
+                        "martinez": 61,
+                        "joshua": 47,
+                        "jonathan": 41,
+                        "taylor": 91,
+                        "brad": 11,
+                        "andrea": 6,
+                        "tyler": 95,
+                        "van": 96,
+                        "jeremy": 36,
+                        "kyle": 54,
+                        "nicole": 72,
+                        "joseph": 45,
+                        "brandon": 12,
+                        "eric": 26,
+                        "stephen": 88,
+                        "bryan": 15,
+                        "peter": 75,
+                        "amy": 4,
+                        "greg": 29,
+                        "craig": 19,
+                        "danielle": 22,
+                        "miller": 69,
+                        "matthew": 63,
+                        "lee": 57,
+                        "nathan": 70,
+                        "dan": 20,
+                        "williams": 98,
+                        "sara": 82
+                    },
+                    "fixed_vocabulary": false,
+                    "idf": [
+                        6.764403558208968,
+                        6.260216462142142,
+                        6.489966712507208,
+                        6.395176148199115,
+                        6.494548622012319,
+                        6.972621459306502,
+                        6.976332038703037,
+                        6.0029655068929015,
+                        6.70315993296825,
+                        6.489966712507208,
+                        6.563459489317012,
+                        7.094579866373366,
+                        6.684939386854721,
+                        6.010012752408304,
+                        6.689114758265202,
+                        7.051584503113304,
+                        7.113587830418543,
+                        5.568887463901255,
+                        6.561002485623959,
+                        7.065711882372514,
+                        6.696112687452846,
+                        5.960347373587117,
+                        7.0616550816769,
+                        5.5222226990441365,
+                        7.021967333409657,
+                        6.77955536322957,
+                        6.303842869763514,
+                        6.8507316416974655,
+                        6.947025912117538,
+                        7.0239147536940525,
+                        6.750960487952515,
+                        5.996665171036651,
+                        6.959741796442841,
+                        5.820526915749231,
+                        6.474093363350917,
+                        6.034351820713572,
+                        6.823244058231902,
+                        6.148608472680369,
+                        6.572106856358194,
+                        5.765874728097841,
+                        6.58584848421049,
+                        6.563459489317012,
+                        6.714539856631012,
+                        6.952455789711908,
+                        7.088323328759061,
+                        6.821650432396623,
+                        6.543970443729528,
+                        6.721718638358018,
+                        7.0495825004426305,
+                        6.28877667140887,
+                        6.644117392334466,
+                        6.4024792583840915,
+                        6.196018598476781,
+                        6.477473648259741,
+                        6.63350721322245,
+                        6.598506881082414,
+                        6.6481254137320045,
+                        6.51895424938046,
+                        6.615206048840046,
+                        6.178289134499211,
+                        6.568391681806331,
+                        7.065711882372514,
+                        5.880822451872439,
+                        6.140517813660215,
+                        6.776506580380212,
+                        6.550020068955351,
+                        5.376231262264877,
+                        6.430081860050984,
+                        6.035076721071521,
+                        6.734771760602597,
+                        7.008440557111455,
+                        6.514259405076253,
+                        6.664320099651985,
+                        6.644117392334466,
+                        6.324936652823314,
+                        6.901162495324357,
+                        6.8312505061256426,
+                        6.877311279502178,
+                        7.094579866373366,
+                        6.376638027200205,
+                        7.041614330793453,
+                        5.753212846850727,
+                        7.088323328759061,
+                        6.153494475885995,
+                        5.96845552611554,
+                        6.599781578514414,
+                        5.982804935294539,
+                        6.565922544749409,
+                        7.047584497779957,
+                        6.679399206479106,
+                        6.922069180143671,
+                        6.582082001415014,
+                        6.356435319882685,
+                        6.669777139115044,
+                        6.976332038703037,
+                        6.8312505061256426,
+                        6.727499001273517,
+                        7.057614672139895,
+                        6.6616027066754855,
+                        7.00269891454378
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    45682.46036410213
+                ],
+                "mean": [
+                    374.48122619799574
+                ],
+                "var": [
+                    2086887184.9177623
+                ],
+                "n_samples_seen": 270723,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "athlete_id": [
+                        "na_fill_median"
+                    ],
+                    "name": [
+                        "text_transform"
+                    ],
+                    "region": [
+                        "na_fill_median"
+                    ],
+                    "team": [
+                        "na_fill_median"
+                    ],
+                    "affiliate": [
+                        "na_fill_median"
+                    ],
+                    "gender": [
+                        "na_fill_median"
+                    ],
+                    "age": [
+                        "na_fill_median"
+                    ],
+                    "height": [
+                        "na_fill_median"
+                    ],
+                    "weight": [
+                        "na_fill_median"
+                    ],
+                    "fran": [
+                        "na_fill_median"
+                    ],
+                    "helen": [
+                        "na_fill_median"
+                    ],
+                    "grace": [
+                        "na_fill_median"
+                    ],
+                    "filthy50": [
+                        "na_fill_median"
+                    ],
+                    "fgonebad": [
+                        "na_fill_median"
+                    ],
+                    "run400": [
+                        "na_fill_median"
+                    ],
+                    "run5k": [
+                        "na_fill_median"
+                    ],
+                    "pullups": [
+                        "na_fill_median"
+                    ],
+                    "eat": [
+                        "na_fill_median"
+                    ],
+                    "train": [
+                        "na_fill_median"
+                    ],
+                    "background": [
+                        "na_fill_median"
+                    ],
+                    "experience": [
+                        "na_fill_median"
+                    ],
+                    "schedule": [
+                        "na_fill_median"
+                    ],
+                    "howlong": [
+                        "na_fill_median"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "athlete_id": 275601.0,
+                        "region": "Europe",
+                        "team": "CrossFit NYC",
+                        "affiliate": "Unaffiliated",
+                        "gender": "Male",
+                        "age": 31.0,
+                        "height": 69.0,
+                        "weight": 170.0,
+                        "fran": 290.0,
+                        "helen": 594.0,
+                        "grace": 193.0,
+                        "filthy50": 1548.0,
+                        "fgonebad": 294.0,
+                        "run400": 70.0,
+                        "run5k": 1379.0,
+                        "pullups": 27.0,
+                        "eat": "I eat quality foods but don't measure the amount|",
+                        "train": "I workout mostly at a CrossFit Affiliate|",
+                        "background": "I played youth or high school level sports|",
+                        "experience": "I began CrossFit with a coach (e.g. at an affiliate)|",
+                        "schedule": "I usually only do 1 workout a day|",
+                        "howlong": "1-2 years|"
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "text_transforms": [
+                {
+                    "new_columns": [
+                        "name_aaron",
+                        "name_adam",
+                        "name_alex",
+                        "name_amanda",
+                        "name_amy",
+                        "name_anderson",
+                        "name_andrea",
+                        "name_andrew",
+                        "name_anthony",
+                        "name_ashley",
+                        "name_ben",
+                        "name_brandon",
+                        "name_brian",
+                        "name_brown",
+                        "name_bryan",
+                        "name_chad",
+                        "name_chris",
+                        "name_christopher",
+                        "name_craig",
+                        "name_dan",
+                        "name_daniel",
+                        "name_danielle",
+                        "name_david",
+                        "name_davis",
+                        "name_emily",
+                        "name_eric",
+                        "name_erin",
+                        "name_garcia",
+                        "name_greg",
+                        "name_heather",
+                        "name_james",
+                        "name_jamie",
+                        "name_jason",
+                        "name_jeff",
+                        "name_jennifer",
+                        "name_jeremy",
+                        "name_jessica",
+                        "name_joe",
+                        "name_john",
+                        "name_johnson",
+                        "name_jonathan",
+                        "name_jones",
+                        "name_jordan",
+                        "name_jose",
+                        "name_joseph",
+                        "name_josh",
+                        "name_joshua",
+                        "name_julie",
+                        "name_justin",
+                        "name_katie",
+                        "name_kelly",
+                        "name_kevin",
+                        "name_kim",
+                        "name_kyle",
+                        "name_laura",
+                        "name_lauren",
+                        "name_lee",
+                        "name_lisa",
+                        "name_mark",
+                        "name_martin",
+                        "name_martinez",
+                        "name_matt",
+                        "name_matthew",
+                        "name_megan",
+                        "name_melissa",
+                        "name_michael",
+                        "name_michelle",
+                        "name_mike",
+                        "name_miller",
+                        "name_nathan",
+                        "name_nick",
+                        "name_nicole",
+                        "name_patrick",
+                        "name_paul",
+                        "name_peter",
+                        "name_rachel",
+                        "name_richard",
+                        "name_rob",
+                        "name_robert",
+                        "name_rodriguez",
+                        "name_ryan",
+                        "name_sam",
+                        "name_sara",
+                        "name_sarah",
+                        "name_scott",
+                        "name_sean",
+                        "name_smith",
+                        "name_stephanie",
+                        "name_stephen",
+                        "name_steve",
+                        "name_steven",
+                        "name_taylor",
+                        "name_thomas",
+                        "name_tim",
+                        "name_tom",
+                        "name_tyler",
+                        "name_van",
+                        "name_william",
+                        "name_williams",
+                        "name_wilson"
+                    ],
+                    "old_column": "name",
+                    "vocabulary": {
+                        "mark": 58,
+                        "jason": 32,
+                        "kelly": 50,
+                        "ryan": 80,
+                        "smith": 86,
+                        "josh": 45,
+                        "william": 97,
+                        "james": 30,
+                        "joe": 37,
+                        "adam": 1,
+                        "michael": 65,
+                        "chris": 16,
+                        "robert": 78,
+                        "joshua": 46,
+                        "john": 38,
+                        "sarah": 83,
+                        "jeff": 33,
+                        "megan": 63,
+                        "lisa": 57,
+                        "ben": 10,
+                        "justin": 48,
+                        "melissa": 64,
+                        "paul": 73,
+                        "erin": 26,
+                        "matthew": 62,
+                        "christopher": 17,
+                        "sean": 85,
+                        "tim": 93,
+                        "daniel": 20,
+                        "matt": 61,
+                        "rob": 77,
+                        "anderson": 5,
+                        "jennifer": 34,
+                        "jones": 41,
+                        "aaron": 0,
+                        "scott": 84,
+                        "wilson": 99,
+                        "steven": 90,
+                        "stephanie": 87,
+                        "tom": 94,
+                        "laura": 54,
+                        "rachel": 75,
+                        "martin": 59,
+                        "sam": 81,
+                        "williams": 98,
+                        "steve": 89,
+                        "andrew": 7,
+                        "jamie": 31,
+                        "jose": 43,
+                        "jessica": 36,
+                        "michelle": 66,
+                        "kevin": 51,
+                        "alex": 2,
+                        "heather": 29,
+                        "tyler": 95,
+                        "garcia": 27,
+                        "thomas": 92,
+                        "patrick": 72,
+                        "mike": 67,
+                        "nick": 70,
+                        "amanda": 3,
+                        "anthony": 8,
+                        "nicole": 71,
+                        "brian": 12,
+                        "joseph": 44,
+                        "julie": 47,
+                        "miller": 68,
+                        "kim": 52,
+                        "rodriguez": 79,
+                        "richard": 76,
+                        "chad": 15,
+                        "jordan": 42,
+                        "martinez": 60,
+                        "emily": 24,
+                        "van": 96,
+                        "jonathan": 40,
+                        "taylor": 91,
+                        "davis": 23,
+                        "jeremy": 35,
+                        "david": 22,
+                        "kyle": 53,
+                        "ashley": 9,
+                        "brandon": 11,
+                        "eric": 25,
+                        "bryan": 14,
+                        "amy": 4,
+                        "peter": 74,
+                        "johnson": 39,
+                        "greg": 28,
+                        "danielle": 21,
+                        "katie": 49,
+                        "craig": 18,
+                        "brown": 13,
+                        "lee": 56,
+                        "andrea": 6,
+                        "lauren": 55,
+                        "stephen": 88,
+                        "dan": 19,
+                        "nathan": 69,
+                        "sara": 82
+                    },
+                    "fixed_vocabulary": false,
+                    "idf": [
+                        6.732453982144421,
+                        6.266650121693768,
+                        6.45318915975517,
+                        6.404766575078941,
+                        6.4948383982216775,
+                        6.966222289936372,
+                        7.025006984830799,
+                        6.0042154817732065,
+                        6.67028707572787,
+                        6.477743964862378,
+                        6.5443184554850475,
+                        6.732453982144421,
+                        6.021965326547989,
+                        6.666185907983656,
+                        7.079182718932824,
+                        7.07301620401716,
+                        5.570305861452419,
+                        6.5443184554850475,
+                        7.052731532845654,
+                        6.692448647530722,
+                        5.956800210930802,
+                        7.0895455059683705,
+                        5.51487158597061,
+                        7.0133563676108235,
+                        6.76957777001862,
+                        6.295422408068423,
+                        6.832000527936828,
+                        6.955233168360777,
+                        7.003750145805384,
+                        6.819200353169866,
+                        5.983323356986119,
+                        6.946166923123023,
+                        5.815580329822399,
+                        6.490251234214772,
+                        6.039306801584476,
+                        6.866401954654161,
+                        6.180783040515007,
+                        6.583732424025924,
+                        5.742555194807509,
+                        6.563831269708629,
+                        6.582476931080092,
+                        6.667551095908996,
+                        6.962545815207063,
+                        7.079182718932824,
+                        6.884905426218721,
+                        6.549161079960835,
+                        6.7266400122790015,
+                        7.032850162291825,
+                        6.289788590350167,
+                        6.652635565152548,
+                        6.360588872711714,
+                        6.251216315563927,
+                        6.474359866878137,
+                        6.609179089687088,
+                        6.5724893324517435,
+                        6.652635565152548,
+                        6.541905909079663,
+                        6.598922589519899,
+                        6.1633044432410475,
+                        6.5774706628019475,
+                        7.0771229859698135,
+                        5.901956180892959,
+                        6.155087470138766,
+                        6.771091774849836,
+                        6.546736836349329,
+                        5.399680344421656,
+                        6.475486627560727,
+                        6.0291544301204585,
+                        6.76957777001862,
+                        7.030883593319784,
+                        6.497139895209957,
+                        6.666185907983656,
+                        6.649947391490747,
+                        6.327961163855196,
+                        6.8832090729705415,
+                        6.76957777001862,
+                        6.914192618490509,
+                        7.064852893377998,
+                        6.383975805409868,
+                        7.081246703153675,
+                        5.731243466328585,
+                        7.060796092682384,
+                        7.0895455059683705,
+                        6.179943762245012,
+                        5.9909332173002605,
+                        6.6273850541836605,
+                        5.986775207151597,
+                        6.520450974078404,
+                        7.003750145805384,
+                        6.706553253712265,
+                        6.876452290507662,
+                        6.592565289024432,
+                        6.352580821908371,
+                        6.65533098457422,
+                        6.8832090729705415,
+                        6.832000527936828,
+                        6.7008875161765875,
+                        7.034820606279124,
+                        6.706553253712265,
+                        6.940766369943023
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    45682.35557138669
+                ],
+                "mean": [
+                    374.41580139108976
+                ],
+                "var": [
+                    2086877610.5506043
+                ],
+                "n_samples_seen": 270723,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "athlete_id": [
+                        "na_fill_median"
+                    ],
+                    "name": [
+                        "text_transform"
+                    ],
+                    "region": [
+                        "na_fill_median"
+                    ],
+                    "team": [
+                        "na_fill_median"
+                    ],
+                    "affiliate": [
+                        "na_fill_median"
+                    ],
+                    "gender": [
+                        "na_fill_median"
+                    ],
+                    "age": [
+                        "na_fill_median"
+                    ],
+                    "height": [
+                        "na_fill_median"
+                    ],
+                    "weight": [
+                        "na_fill_median"
+                    ],
+                    "fran": [
+                        "na_fill_median"
+                    ],
+                    "helen": [
+                        "na_fill_median"
+                    ],
+                    "grace": [
+                        "na_fill_median"
+                    ],
+                    "filthy50": [
+                        "na_fill_median"
+                    ],
+                    "fgonebad": [
+                        "na_fill_median"
+                    ],
+                    "run400": [
+                        "na_fill_median"
+                    ],
+                    "run5k": [
+                        "na_fill_median"
+                    ],
+                    "pullups": [
+                        "na_fill_median"
+                    ],
+                    "eat": [
+                        "na_fill_median"
+                    ],
+                    "train": [
+                        "na_fill_median"
+                    ],
+                    "background": [
+                        "na_fill_median"
+                    ],
+                    "experience": [
+                        "na_fill_median"
+                    ],
+                    "schedule": [
+                        "na_fill_median"
+                    ],
+                    "howlong": [
+                        "na_fill_median"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "athlete_id": 275637.0,
+                        "region": "Europe",
+                        "team": "CrossFit NYC",
+                        "affiliate": "Unaffiliated",
+                        "gender": "Male",
+                        "age": 31.0,
+                        "height": 69.0,
+                        "weight": 170.0,
+                        "fran": 290.0,
+                        "helen": 594.0,
+                        "grace": 193.0,
+                        "filthy50": 1546.0,
+                        "fgonebad": 294.0,
+                        "run400": 71.0,
+                        "run5k": 1380.0,
+                        "pullups": 27.0,
+                        "eat": "I eat quality foods but don't measure the amount|",
+                        "train": "I workout mostly at a CrossFit Affiliate|",
+                        "background": "I played youth or high school level sports|",
+                        "experience": "I began CrossFit with a coach (e.g. at an affiliate)|",
+                        "schedule": "I usually only do 1 workout a day|",
+                        "howlong": "1-2 years|"
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "text_transforms": [
+                {
+                    "new_columns": [
+                        "name_aaron",
+                        "name_adam",
+                        "name_alex",
+                        "name_amanda",
+                        "name_amy",
+                        "name_anderson",
+                        "name_andrea",
+                        "name_andrew",
+                        "name_anthony",
+                        "name_ashley",
+                        "name_ben",
+                        "name_brandon",
+                        "name_brian",
+                        "name_brown",
+                        "name_bryan",
+                        "name_carlos",
+                        "name_chris",
+                        "name_christopher",
+                        "name_craig",
+                        "name_dan",
+                        "name_daniel",
+                        "name_danielle",
+                        "name_david",
+                        "name_davis",
+                        "name_emily",
+                        "name_eric",
+                        "name_erin",
+                        "name_garcia",
+                        "name_greg",
+                        "name_heather",
+                        "name_james",
+                        "name_jamie",
+                        "name_jason",
+                        "name_jeff",
+                        "name_jennifer",
+                        "name_jeremy",
+                        "name_jessica",
+                        "name_joe",
+                        "name_john",
+                        "name_johnson",
+                        "name_jonathan",
+                        "name_jones",
+                        "name_jordan",
+                        "name_jose",
+                        "name_joseph",
+                        "name_josh",
+                        "name_joshua",
+                        "name_julie",
+                        "name_justin",
+                        "name_katie",
+                        "name_kelly",
+                        "name_kevin",
+                        "name_kim",
+                        "name_kyle",
+                        "name_laura",
+                        "name_lauren",
+                        "name_lee",
+                        "name_lisa",
+                        "name_maria",
+                        "name_mark",
+                        "name_martin",
+                        "name_martinez",
+                        "name_matt",
+                        "name_matthew",
+                        "name_megan",
+                        "name_melissa",
+                        "name_michael",
+                        "name_michelle",
+                        "name_mike",
+                        "name_miller",
+                        "name_nathan",
+                        "name_nick",
+                        "name_nicole",
+                        "name_patrick",
+                        "name_paul",
+                        "name_peter",
+                        "name_rachel",
+                        "name_richard",
+                        "name_rob",
+                        "name_robert",
+                        "name_rodriguez",
+                        "name_ryan",
+                        "name_sara",
+                        "name_sarah",
+                        "name_scott",
+                        "name_sean",
+                        "name_smith",
+                        "name_stephanie",
+                        "name_stephen",
+                        "name_steve",
+                        "name_steven",
+                        "name_taylor",
+                        "name_thomas",
+                        "name_tim",
+                        "name_tom",
+                        "name_tyler",
+                        "name_van",
+                        "name_william",
+                        "name_williams",
+                        "name_wilson"
+                    ],
+                    "old_column": "name",
+                    "vocabulary": {
+                        "johnson": 39,
+                        "mark": 59,
+                        "jason": 32,
+                        "kelly": 50,
+                        "ryan": 81,
+                        "smith": 86,
+                        "stephanie": 87,
+                        "josh": 45,
+                        "jordan": 42,
+                        "james": 30,
+                        "joe": 37,
+                        "adam": 1,
+                        "michael": 66,
+                        "steven": 90,
+                        "chris": 16,
+                        "jones": 41,
+                        "paul": 74,
+                        "david": 22,
+                        "robert": 79,
+                        "joshua": 46,
+                        "john": 38,
+                        "emily": 24,
+                        "jeff": 33,
+                        "megan": 64,
+                        "ben": 10,
+                        "justin": 48,
+                        "melissa": 65,
+                        "erin": 26,
+                        "matthew": 63,
+                        "christopher": 17,
+                        "sean": 85,
+                        "matt": 62,
+                        "tim": 93,
+                        "lisa": 57,
+                        "rob": 78,
+                        "anderson": 5,
+                        "jennifer": 34,
+                        "aaron": 0,
+                        "scott": 84,
+                        "wilson": 99,
+                        "tom": 94,
+                        "laura": 54,
+                        "davis": 23,
+                        "rachel": 76,
+                        "amanda": 3,
+                        "ashley": 9,
+                        "martin": 60,
+                        "williams": 98,
+                        "steve": 89,
+                        "andrew": 7,
+                        "jamie": 31,
+                        "nick": 71,
+                        "brown": 13,
+                        "jose": 43,
+                        "jessica": 36,
+                        "kevin": 51,
+                        "alex": 2,
+                        "heather": 29,
+                        "tyler": 95,
+                        "sarah": 83,
+                        "thomas": 92,
+                        "patrick": 73,
+                        "mike": 68,
+                        "lauren": 55,
+                        "anthony": 8,
+                        "nicole": 72,
+                        "carlos": 15,
+                        "joseph": 44,
+                        "brian": 12,
+                        "miller": 69,
+                        "kim": 52,
+                        "garcia": 27,
+                        "rodriguez": 80,
+                        "maria": 58,
+                        "richard": 77,
+                        "william": 97,
+                        "katie": 49,
+                        "michelle": 67,
+                        "van": 96,
+                        "daniel": 20,
+                        "jonathan": 40,
+                        "taylor": 91,
+                        "andrea": 6,
+                        "jeremy": 35,
+                        "kyle": 53,
+                        "brandon": 11,
+                        "martinez": 61,
+                        "eric": 25,
+                        "stephen": 88,
+                        "bryan": 14,
+                        "julie": 47,
+                        "amy": 4,
+                        "peter": 75,
+                        "greg": 28,
+                        "craig": 18,
+                        "danielle": 21,
+                        "nathan": 70,
+                        "dan": 19,
+                        "lee": 56,
+                        "sara": 82
+                    },
+                    "fixed_vocabulary": false,
+                    "idf": [
+                        6.790465788221874,
+                        6.257930093009914,
+                        6.49892717416034,
+                        6.380374611724927,
+                        6.517575733238412,
+                        6.973096511813777,
+                        7.012836840463292,
+                        6.044635244319367,
+                        6.678020690337059,
+                        6.46710630754926,
+                        6.567013165664283,
+                        6.716026671962251,
+                        6.0157314981370185,
+                        6.721782083532871,
+                        7.0807271760061425,
+                        7.0807271760061425,
+                        5.5598044002435385,
+                        6.543798928337515,
+                        7.086944812617014,
+                        6.680786943829949,
+                        5.946263905539799,
+                        7.107953988706357,
+                        5.520410060906992,
+                        7.024487457683267,
+                        6.823461711622676,
+                        6.277170265083567,
+                        6.826661714353347,
+                        6.9366626095676756,
+                        7.060276565534852,
+                        6.755534370337763,
+                        6.0022894846329224,
+                        7.001320398401733,
+                        5.797729346323227,
+                        6.457089529305789,
+                        6.043170042592039,
+                        6.818680826022334,
+                        6.15538660861207,
+                        6.574457368776013,
+                        5.743662125052952,
+                        6.551071687666595,
+                        6.56825002420168,
+                        6.693330662308479,
+                        6.963862835866832,
+                        7.078663191785291,
+                        6.8742506771771446,
+                        6.5425919275874795,
+                        6.70745519091211,
+                        7.0382536534474145,
+                        6.309127871852238,
+                        6.632128697080403,
+                        6.335254176444458,
+                        6.219652166734434,
+                        6.477224437714845,
+                        6.630810305327144,
+                        6.6022369328830885,
+                        6.67940286056401,
+                        6.504717578295044,
+                        6.588250690908349,
+                        7.10583309713722,
+                        6.150484638011863,
+                        6.534183469638073,
+                        7.103716694230842,
+                        5.88442836972606,
+                        6.156205944995472,
+                        6.810763128285549,
+                        6.534183469638073,
+                        5.382385738430375,
+                        6.464871669747844,
+                        6.052732454551987,
+                        6.717462422388355,
+                        7.008983271147302,
+                        6.503556812059082,
+                        6.630810305327144,
+                        6.612533034135352,
+                        6.3570588064113105,
+                        6.889492293145762,
+                        6.8347068100381785,
+                        6.9366626095676756,
+                        7.030364066172252,
+                        6.397964304751914,
+                        7.056236155997847,
+                        5.742577526248147,
+                        7.101604761027698,
+                        6.1383338202293505,
+                        5.9732015612716065,
+                        6.619022349575102,
+                        5.986947482176242,
+                        6.548641552813303,
+                        7.012836840463292,
+                        6.696139652919534,
+                        6.9171757218941785,
+                        6.593313992864895,
+                        6.3610748760662,
+                        6.650771047889683,
+                        6.924218004519592,
+                        6.8559320966534605,
+                        6.703196845229533,
+                        7.0827954290702015,
+                        6.693330662308479,
+                        7.0032306186578515
+                    ]
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    45615.68636722251
+                ],
+                "mean": [
+                    367.13951108878416
+                ],
+                "var": [
+                    2080790842.7528095
+                ],
+                "n_samples_seen": 270724,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "athlete_id": [
+                        "na_fill_median"
+                    ],
+                    "name": [
+                        "text_transform"
+                    ],
+                    "region": [
+                        "na_fill_median"
+                    ],
+                    "team": [
+                        "na_fill_median"
+                    ],
+                    "affiliate": [
+                        "na_fill_median"
+                    ],
+                    "gender": [
+                        "na_fill_median"
+                    ],
+                    "age": [
+                        "na_fill_median"
+                    ],
+                    "height": [
+                        "na_fill_median"
+                    ],
+                    "weight": [
+                        "na_fill_median"
+                    ],
+                    "fran": [
+                        "na_fill_median"
+                    ],
+                    "helen": [
+                        "na_fill_median"
+                    ],
+                    "grace": [
+                        "na_fill_median"
+                    ],
+                    "filthy50": [
+                        "na_fill_median"
+                    ],
+                    "fgonebad": [
+                        "na_fill_median"
+                    ],
+                    "run400": [
+                        "na_fill_median"
+                    ],
+                    "run5k": [
+                        "na_fill_median"
+                    ],
+                    "pullups": [
+                        "na_fill_median"
+                    ],
+                    "eat": [
+                        "na_fill_median"
+                    ],
+                    "train": [
+                        "na_fill_median"
+                    ],
+                    "background": [
+                        "na_fill_median"
+                    ],
+                    "experience": [
+                        "na_fill_median"
+                    ],
+                    "schedule": [
+                        "na_fill_median"
+                    ],
+                    "howlong": [
+                        "na_fill_median"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "4518da0a-7c4a-485a-921a-33daf84d17ce",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 3,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 3
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "f273279b-347f-40d6-9d70-7d924088e9b5",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 3,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 2
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "594268ce-3d48-4542-8d72-a00b4a1d57af",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 3,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 5
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b2eb7262-209f-458e-b696-2e224331656b",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 3,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 105
+        },
+        {
+            "library_version": "1.2.8",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "c371c97d-e833-483b-ae7c-284cdb302c04",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "RMSE",
+                "seed": 3,
+                "eval_metric": "RMSE",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 115
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "athlete_id": [
+                    "na_fill_median"
+                ],
+                "name": [
+                    "text_transform"
+                ],
+                "region": [
+                    "na_fill_median"
+                ],
+                "team": [
+                    "na_fill_median"
+                ],
+                "affiliate": [
+                    "na_fill_median"
+                ],
+                "gender": [
+                    "na_fill_median"
+                ],
+                "age": [
+                    "na_fill_median"
+                ],
+                "height": [
+                    "na_fill_median"
+                ],
+                "weight": [
+                    "na_fill_median"
+                ],
+                "fran": [
+                    "na_fill_median"
+                ],
+                "helen": [
+                    "na_fill_median"
+                ],
+                "grace": [
+                    "na_fill_median"
+                ],
+                "filthy50": [
+                    "na_fill_median"
+                ],
+                "fgonebad": [
+                    "na_fill_median"
+                ],
+                "run400": [
+                    "na_fill_median"
+                ],
+                "run5k": [
+                    "na_fill_median"
+                ],
+                "pullups": [
+                    "na_fill_median"
+                ],
+                "eat": [
+                    "na_fill_median"
+                ],
+                "train": [
+                    "na_fill_median"
+                ],
+                "background": [
+                    "na_fill_median"
+                ],
+                "experience": [
+                    "na_fill_median"
+                ],
+                "schedule": [
+                    "na_fill_median"
+                ],
+                "howlong": [
+                    "na_fill_median"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "X_path": "AutoML_1/X.data",
+            "y_path": "AutoML_1/y.data",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "learning_rate": 0.1,
+            "depth": 6,
+            "rsm": 1,
+            "loss_function": "RMSE",
+            "seed": 3,
+            "eval_metric": "RMSE",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "3_Default_CatBoost",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "3_Default_CatBoost/learner_fold_0.catboost",
+        "3_Default_CatBoost/learner_fold_1.catboost",
+        "3_Default_CatBoost/learner_fold_2.catboost",
+        "3_Default_CatBoost/learner_fold_3.catboost",
+        "3_Default_CatBoost/learner_fold_4.catboost"
+    ],
+    "predictions_fname": "3_Default_CatBoost/predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": "40865.074532806466",
+    "train_time": 107.22075605392456,
+    "is_stacked": false,
+    "joblib_version": "1.5.1",
+    "single_prediction_time": 0.23450899124145508
+}

@@ -1,6 +1,5 @@
 {
     "columns": [
-        "athlete_id",
         "region",
         "gender",
         "age",
@@ -13,12 +12,9 @@
         "howlong"
     ],
     "rows": 24012,
-    "cols": 11,
+    "cols": 10,
     "target_is_numeric": true,
     "columns_info": {
-        "athlete_id": [
-            "scale"
-        ],
         "region": [
             "categorical",
             "few_categories"
@@ -60,7 +56,7 @@
     "target_info": [
         "scale"
     ],
-    "n_features": 11,
+    "n_features": 10,
     "is_sample_weighted": false,
     "is_fairness_applied": false
 }

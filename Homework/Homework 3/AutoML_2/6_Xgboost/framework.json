@@ -1,5 +1,5 @@
 {
-    "uid": "f61323db-68d5-47c5-a71f-ce458d6bbcf9",
+    "uid": "cbdfafa5-bb1f-4487-a2e6-c4fda0ab231a",
     "name": "6_Xgboost",
     "preprocessing": [
         {
@@ -1844,7 +1844,7 @@
             "library_version": "3.0.2",
             "algorithm_name": "Extreme Gradient Boosting",
             "algorithm_short_name": "Xgboost",
-            "uid": "11bd1be0-4a5c-46c7-adee-31d82068471d",
+            "uid": "942edc31-bcff-4677-9d00-05893d1cbf01",
             "params": {
                 "model_type": "Xgboost",
                 "ml_task": "regression",
@@ -1865,7 +1865,7 @@
             "library_version": "3.0.2",
             "algorithm_name": "Extreme Gradient Boosting",
             "algorithm_short_name": "Xgboost",
-            "uid": "70a8fd5a-fd59-464b-ba83-27e9cc9edd44",
+            "uid": "45448f13-4f06-4ca6-b6d4-cacbf66dcffc",
             "params": {
                 "model_type": "Xgboost",
                 "ml_task": "regression",
@@ -1886,7 +1886,7 @@
             "library_version": "3.0.2",
             "algorithm_name": "Extreme Gradient Boosting",
             "algorithm_short_name": "Xgboost",
-            "uid": "4c6bf946-20b3-4a6c-9349-2107e7518811",
+            "uid": "a79f4fd4-ab98-4219-9896-f77dd910d054",
             "params": {
                 "model_type": "Xgboost",
                 "ml_task": "regression",
@@ -1907,7 +1907,7 @@
             "library_version": "3.0.2",
             "algorithm_name": "Extreme Gradient Boosting",
             "algorithm_short_name": "Xgboost",
-            "uid": "7b438127-2963-480d-aa16-94565be8b64a",
+            "uid": "082468eb-2dfd-44ba-bf1a-ca0c9bfba095",
             "params": {
                 "model_type": "Xgboost",
                 "ml_task": "regression",
@@ -1928,7 +1928,7 @@
             "library_version": "3.0.2",
             "algorithm_name": "Extreme Gradient Boosting",
             "algorithm_short_name": "Xgboost",
-            "uid": "217c4b9a-13b2-4b76-9f9c-c31629dff134",
+            "uid": "1cd7feea-8e84-4d10-bf00-95d074f06b08",
             "params": {
                 "model_type": "Xgboost",
                 "ml_task": "regression",
@@ -2024,9 +2024,9 @@
     ],
     "predictions_fname": "6_Xgboost/predictions_out_of_folds.csv",
     "metric_name": "rmse",
-    "final_loss": "135.73939841708005",
-    "train_time": 4.792887926101685,
+    "final_loss": "142.29481870201923",
+    "train_time": 4.294905662536621,
     "is_stacked": false,
     "joblib_version": "1.5.1",
-    "single_prediction_time": 0.016933917999267578
+    "single_prediction_time": 0.01699209213256836
 }
